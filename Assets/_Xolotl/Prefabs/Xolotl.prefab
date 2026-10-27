@@ -319,7 +319,7 @@ MonoBehaviour:
   radius: 6
   maxLight: 6
   minVisualRadius: 0.6
-  drainPerSecond: 0.5
+  drainPerSecond: 0.2
   flareCost: 1.5
   flareRadius: 9
   flareDuration: 1

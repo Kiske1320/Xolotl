@@ -15,6 +15,10 @@ public class Veladora : LightSource
     [Tooltip("Dónde reaparece Xólotl. Si está vacío, usa la posición de la veladora.")]
     [SerializeField] Transform respawnPoint;
 
+    [Header("Recarga")]
+    [Tooltip("Luz por segundo que recupera Xólotl mientras está junto a una veladora encendida")]
+    [SerializeField] float rechargePerSecond = 1.5f;
+
     [Header("Parpadeo de la flama")]
     [SerializeField] float flickerAmount = 0.12f;
     [SerializeField] float flickerSpeed = 7f;
@@ -46,6 +50,11 @@ public class Veladora : LightSource
         {
             if (light2D != null)
                 light2D.pointLightOuterRadius = litRadius + Mathf.Sin((Time.time + flickerOffset) * flickerSpeed) * flickerAmount;
+
+            // Zona segura: junto a la veladora, el fuego de Xólotl se recupera
+            if (xolotl != null && rechargePerSecond > 0f &&
+                Vector2.Distance(xolotl.transform.position, transform.position) <= litRadius)
+                xolotl.AddLight(rechargePerSecond * Time.deltaTime);
             return;
         }
 

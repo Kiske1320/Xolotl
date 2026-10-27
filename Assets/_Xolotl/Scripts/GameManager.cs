@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -12,6 +13,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    /// <summary>Se dispara cuando Xólotl reaparece. Los pétalos se escuchan aquí para volver.</summary>
+    public static event Action OnRespawn;
+
     [Header("Xólotl")]
     [SerializeField] XolotlLight xolotlLight;
     [SerializeField] XolotlController xolotlController;
@@ -19,7 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Transform levelStart;
 
     [Header("Reintento")]
-    [Range(0.1f, 1f)][SerializeField] float respawnLightFraction = 0.5f;
+    [Range(0.1f, 1f)][SerializeField] float respawnLightFraction = 1f;
     [SerializeField] float defeatDelay = 1f;
     [SerializeField] InputActionReference retryAction; // usa la acción Jump
 
@@ -96,6 +100,10 @@ public class GameManager : MonoBehaviour
         xolotlController.transform.position = checkpointPosition;
 
         xolotlLight.Refill(respawnLightFraction);
+        OnRespawn?.Invoke();
+
+        CameraFollow cam = FindAnyObjectByType<CameraFollow>();
+        if (cam != null) cam.SnapToTarget();
 
         yield return Fade(1f, 0f);
 

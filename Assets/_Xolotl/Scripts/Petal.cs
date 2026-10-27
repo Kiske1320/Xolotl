@@ -2,6 +2,8 @@ using UnityEngine;
 
 /// <summary>
 /// Pétalo de cempasúchil de los caminos que ponen los vivos. Recarga la luz de Xólotl.
+/// Al recogerlo se oculta (no se destruye) y vuelve a aparecer cuando Xólotl reaparece
+/// en una veladora, para que el jugador nunca se quede sin forma de recargar.
 /// Necesita un Collider2D marcado como Trigger.
 /// </summary>
 [RequireComponent(typeof(Collider2D))]
@@ -18,8 +20,19 @@ public class Petal : MonoBehaviour
 
     Vector3 startPos;
     bool collected;
+    Collider2D col;
+    SpriteRenderer[] renderers;
 
     void Reset() => GetComponent<Collider2D>().isTrigger = true;
+
+    void Awake()
+    {
+        col = GetComponent<Collider2D>();
+        renderers = GetComponentsInChildren<SpriteRenderer>();
+        GameManager.OnRespawn += Restore;
+    }
+
+    void OnDestroy() => GameManager.OnRespawn -= Restore;
 
     void Start()
     {
@@ -30,6 +43,7 @@ public class Petal : MonoBehaviour
 
     void Update()
     {
+        if (collected) return;
         transform.position = startPos + Vector3.up * (Mathf.Sin(Time.time * bobSpeed) * bobAmplitude);
     }
 
@@ -40,7 +54,6 @@ public class Petal : MonoBehaviour
         XolotlLight xolotlLight = other.attachedRigidbody.GetComponent<XolotlLight>();
         if (xolotlLight == null || xolotlLight.IsEmpty) return;
 
-        collected = true;
         xolotlLight.AddLight(lightAmount);
 
         if (pickupFxPrefab != null)
@@ -48,6 +61,16 @@ public class Petal : MonoBehaviour
         if (pickupSfx != null)
             AudioSource.PlayClipAtPoint(pickupSfx, transform.position, sfxVolume);
 
-        Destroy(gameObject);
+        SetCollected(true);
+    }
+
+    void Restore() => SetCollected(false);
+
+    void SetCollected(bool value)
+    {
+        collected = value;
+        col.enabled = !value;
+        foreach (SpriteRenderer r in renderers)
+            if (r != null) r.enabled = !value;
     }
 }
