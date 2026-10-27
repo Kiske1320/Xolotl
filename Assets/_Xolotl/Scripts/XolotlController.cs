@@ -110,6 +110,10 @@ public class XolotlController : MonoBehaviour
         if (jumpAction.action.WasReleasedThisFrame() && rb.linearVelocity.y > 0f)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
 
+        // TEMPORAL: diagnóstico de la llamarada, borrar después
+        if (flareAction.action.WasPressedThisFrame())
+            Debug.Log($"[Flare] Botón presionado ({flareAction.action.activeControl?.path}). xolotlLight asignado: {xolotlLight != null}");
+
         if (flareAction.action.WasPressedThisFrame() && xolotlLight != null && xolotlLight.TryFlare())
         {
             if (animator != null) animator.SetTrigger(FlareHash);

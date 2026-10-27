@@ -16,12 +16,15 @@ public static class LightRegistry
 
     public static void Remove(LightSource source) => sources.Remove(source);
 
-    public static bool IsLit(Vector2 point)
+    public static bool IsLit(Vector2 point) => IsLit(point, null);
+
+    /// <summary>Igual que IsLit, pero sin contar una luz (por ejemplo la luz normal de Xólotl).</summary>
+    public static bool IsLit(Vector2 point, LightSource ignore)
     {
         for (int i = 0; i < sources.Count; i++)
         {
             LightSource s = sources[i];
-            if (s.Radius <= 0f) continue;
+            if (s == ignore || s.Radius <= 0f) continue;
             if (((Vector2)s.transform.position - point).sqrMagnitude <= s.Radius * s.Radius)
                 return true;
         }

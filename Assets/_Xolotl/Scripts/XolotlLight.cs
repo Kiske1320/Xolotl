@@ -19,6 +19,11 @@ public class XolotlLight : LightSource
     [SerializeField] float flareDuration = 1f;
     [SerializeField] float flareCooldown = 3f;
 
+    [Tooltip("Cuánto se multiplica la intensidad al inicio de la llamarada; luego baja suave")]
+    [SerializeField] float flareIntensityMultiplier = 3f;
+    [Tooltip("Qué tan rápido crece el radio al lanzar la llamarada (unidades por segundo)")]
+    [SerializeField] float flareExpandSpeed = 40f;
+
     [Header("Parpadeo con poca luz")]
     [SerializeField] float lowLightThreshold = 1.5f;
     [SerializeField] float flickerAmount = 0.15f;
@@ -33,6 +38,8 @@ public class XolotlLight : LightSource
     float cooldownTimer;
     bool isEmpty;
     bool drainPaused;
+    float baseIntensity = 1f;
+    float visualRadius;
 
     public float LightNormalized => maxLight > 0f ? currentLight / maxLight : 0f;
     public bool IsFlaring => flareTimer > 0f;
@@ -42,6 +49,8 @@ public class XolotlLight : LightSource
     protected override void Start()
     {
         currentLight = maxLight;
+        if (light2D != null) baseIntensity = light2D.intensity;
+        visualRadius = maxLight;
         ApplyRadius();
         OnLightChanged?.Invoke(LightNormalized);
     }
@@ -70,11 +79,20 @@ public class XolotlLight : LightSource
 
         radius = gameplayRadius;
 
-        float visualRadius = gameplayRadius;
-        if (!isEmpty && !IsFlaring && currentLight < lowLightThreshold)
-            visualRadius += Mathf.Sin(Time.time * flickerSpeed) * flickerAmount;
+        if (light2D == null) return;
 
-        if (light2D != null) light2D.pointLightOuterRadius = Mathf.Max(0f, visualRadius);
+        // El radio visual crece rápido al lanzar la llamarada y regresa suave al terminar
+        float speed = IsFlaring ? flareExpandSpeed : flareExpandSpeed * 0.25f;
+        visualRadius = Mathf.MoveTowards(visualRadius, gameplayRadius, speed * Time.deltaTime);
+
+        float shownRadius = visualRadius;
+        if (!isEmpty && !IsFlaring && currentLight < lowLightThreshold)
+            shownRadius += Mathf.Sin(Time.time * flickerSpeed) * flickerAmount;
+        light2D.pointLightOuterRadius = Mathf.Max(0f, shownRadius);
+
+        // Destello: la intensidad sube de golpe y baja durante la llamarada
+        float flareProgress = IsFlaring && flareDuration > 0f ? flareTimer / flareDuration : 0f;
+        light2D.intensity = baseIntensity * Mathf.Lerp(1f, flareIntensityMultiplier, flareProgress);
     }
 
     void Extinguish()
@@ -122,6 +140,7 @@ public class XolotlLight : LightSource
         isEmpty = false;
         flareTimer = 0f;
         cooldownTimer = 0f;
+        visualRadius = currentLight;
         OnLightChanged?.Invoke(LightNormalized);
         ApplyRadius();
     }
