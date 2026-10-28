@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 4a8653e35a59edc4ea8c2e508e1079d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5353991276745657865
+    second: hallowtiles_3_0
+  - first:
+      213: -5886820479698184158
+    second: hallowtiles_3_1
+  - first:
+      213: -2798577350873346648
+    second: hallowtiles_3_2
+  - first:
+      213: 7512198444151018979
+    second: hallowtiles_3_3
+  - first:
+      213: -5411656144770693493
+    second: hallowtiles_3_4
+  - first:
+      213: 8764634544288300992
+    second: hallowtiles_3_5
+  - first:
+      213: 8458323604098470901
+    second: hallowtiles_3_6
+  - first:
+      213: 3253643557294642343
+    second: hallowtiles_3_7
+  - first:
+      213: -1360477306971454398
+    second: hallowtiles_3_8
+  - first:
+      213: 8267384460717768132
+    second: hallowtiles_3_9
+  - first:
+      213: 3789002176850628703
+    second: hallowtiles_3_10
+  - first:
+      213: -1907477274630176379
+    second: hallowtiles_3_11
+  - first:
+      213: 8456758087365565822
+    second: hallowtiles_3_12
+  - first:
+      213: -1889144063891119909
+    second: hallowtiles_3_13
+  - first:
+      213: 961548581222773871
+    second: hallowtiles_3_14
+  - first:
+      213: -6205808238148781901
+    second: hallowtiles_3_15
+  - first:
+      213: -3072044612560888103
+    second: hallowtiles_3_16
+  - first:
+      213: -8186883868583831593
+    second: hallowtiles_3_17
+  - first:
+      213: -7581537195408045401
+    second: hallowtiles_3_18
+  - first:
+      213: 2393495961289953388
+    second: hallowtiles_3_19
+  - first:
+      213: -5389045166620050888
+    second: hallowtiles_3_20
+  - first:
+      213: -6431320007120616494
+    second: hallowtiles_3_21
+  - first:
+      213: 3040284889508258101
+    second: hallowtiles_3_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hallowtiles_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 139
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1f80bec4dc2b5b0800000000000000
+      internalID: -5353991276745657865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 290
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2285813a6ffcd4ea0800000000000000
+      internalID: -5886820479698184158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 254
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad8db41ab47929d0800000000000000
+      internalID: -2798577350873346648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 254
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e51dd10fa0b04860800000000000000
+      internalID: 7512198444151018979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 242
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b860264986fe5e4b0800000000000000
+      internalID: -5411656144770693493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cffb665eac32a970800000000000000
+      internalID: 8764634544288300992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 191
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f35799f080026570800000000000000
+      internalID: 8458323604098470901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 149
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4194aa393472d20800000000000000
+      internalID: 3253643557294642343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 146
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2448cf0f81d9e1de0800000000000000
+      internalID: -1360477306971454398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 143
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdbaa25d56abb270800000000000000
+      internalID: 8267384460717768132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 119
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f501d54a76d359430800000000000000
+      internalID: 3789002176850628703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581c98466874785e0800000000000000
+      internalID: -1907477274630176379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 101
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d16d4bca07c5570800000000000000
+      internalID: 8456758087365565822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 104
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd06b36ab7968c5e0800000000000000
+      internalID: -1889144063891119909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 101
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f647012175b185d00800000000000000
+      internalID: 961548581222773871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 95
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8f2f4894a80e9a0800000000000000
+      internalID: -6205808238148781901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2
+        width: 128
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ded72683b7ed55d0800000000000000
+      internalID: -3072044612560888103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 95
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d75fab5f78526e80800000000000000
+      internalID: -8186883868583831593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 101
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaca48e618f8c690800000000000000
+      internalID: -7581537195408045401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60150045e7673120800000000000000
+      internalID: 2393495961289953388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a731d29f34635b0800000000000000
+      internalID: -5389045166620050888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 11
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d386b2378c5fb6a0800000000000000
+      internalID: -6431320007120616494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hallowtiles_3_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 86
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531a027bff2413a20800000000000000
+      internalID: 3040284889508258101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hallowtiles_3_0: -5353991276745657865
+      hallowtiles_3_1: -5886820479698184158
+      hallowtiles_3_10: 3789002176850628703
+      hallowtiles_3_11: -1907477274630176379
+      hallowtiles_3_12: 8456758087365565822
+      hallowtiles_3_13: -1889144063891119909
+      hallowtiles_3_14: 961548581222773871
+      hallowtiles_3_15: -6205808238148781901
+      hallowtiles_3_16: -3072044612560888103
+      hallowtiles_3_17: -8186883868583831593
+      hallowtiles_3_18: -7581537195408045401
+      hallowtiles_3_19: 2393495961289953388
+      hallowtiles_3_2: -2798577350873346648
+      hallowtiles_3_20: -5389045166620050888
+      hallowtiles_3_21: -6431320007120616494
+      hallowtiles_3_22: 3040284889508258101
+      hallowtiles_3_3: 7512198444151018979
+      hallowtiles_3_4: -5411656144770693493
+      hallowtiles_3_5: 8764634544288300992
+      hallowtiles_3_6: 8458323604098470901
+      hallowtiles_3_7: 3253643557294642343
+      hallowtiles_3_8: -1360477306971454398
+      hallowtiles_3_9: 8267384460717768132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

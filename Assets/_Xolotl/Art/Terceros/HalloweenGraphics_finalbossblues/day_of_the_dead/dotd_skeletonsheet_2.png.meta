@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: 11b2c8cd7eb99fe4182d21ee0b912faa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7050306996142961476
+    second: dotd_skeletonsheet_2_0
+  - first:
+      213: 5143831772473541295
+    second: dotd_skeletonsheet_2_1
+  - first:
+      213: 6564823044995209862
+    second: dotd_skeletonsheet_2_2
+  - first:
+      213: 2165636801562572595
+    second: dotd_skeletonsheet_2_3
+  - first:
+      213: -8864886748805410872
+    second: dotd_skeletonsheet_2_4
+  - first:
+      213: -4439989948581726146
+    second: dotd_skeletonsheet_2_5
+  - first:
+      213: -6865958671395600700
+    second: dotd_skeletonsheet_2_6
+  - first:
+      213: 4955954471514795167
+    second: dotd_skeletonsheet_2_7
+  - first:
+      213: -6547453584586322585
+    second: dotd_skeletonsheet_2_8
+  - first:
+      213: -6272057146739626128
+    second: dotd_skeletonsheet_2_9
+  - first:
+      213: -7194178250480636937
+    second: dotd_skeletonsheet_2_10
+  - first:
+      213: -7338994655655494081
+    second: dotd_skeletonsheet_2_11
+  - first:
+      213: 8121285216535225895
+    second: dotd_skeletonsheet_2_12
+  - first:
+      213: 8134273134766349441
+    second: dotd_skeletonsheet_2_13
+  - first:
+      213: -7668699539980298657
+    second: dotd_skeletonsheet_2_14
+  - first:
+      213: -341158027443079669
+    second: dotd_skeletonsheet_2_15
+  - first:
+      213: -2947578090045597626
+    second: dotd_skeletonsheet_2_16
+  - first:
+      213: -651416208338049799
+    second: dotd_skeletonsheet_2_17
+  - first:
+      213: 1296146520324410597
+    second: dotd_skeletonsheet_2_18
+  - first:
+      213: -4889576499085821053
+    second: dotd_skeletonsheet_2_19
+  - first:
+      213: -7205547450607550294
+    second: dotd_skeletonsheet_2_20
+  - first:
+      213: -2183085287465432780
+    second: dotd_skeletonsheet_2_21
+  - first:
+      213: -2581080618703017923
+    second: dotd_skeletonsheet_2_22
+  - first:
+      213: 2436864984273870968
+    second: dotd_skeletonsheet_2_23
+  - first:
+      213: -6386321614789624233
+    second: dotd_skeletonsheet_2_24
+  - first:
+      213: -2595732402035173185
+    second: dotd_skeletonsheet_2_25
+  - first:
+      213: 3756285199677912019
+    second: dotd_skeletonsheet_2_26
+  - first:
+      213: 7475793299659979938
+    second: dotd_skeletonsheet_2_27
+  - first:
+      213: 5738983250274205858
+    second: dotd_skeletonsheet_2_28
+  - first:
+      213: -8109422097905089384
+    second: dotd_skeletonsheet_2_29
+  - first:
+      213: -5491296277351185050
+    second: dotd_skeletonsheet_2_30
+  - first:
+      213: -2717046449850405906
+    second: dotd_skeletonsheet_2_31
+  - first:
+      213: 4494384054082789471
+    second: dotd_skeletonsheet_2_32
+  - first:
+      213: 7193369330311487852
+    second: dotd_skeletonsheet_2_33
+  - first:
+      213: -6189571402420880467
+    second: dotd_skeletonsheet_2_34
+  - first:
+      213: -936687350266988938
+    second: dotd_skeletonsheet_2_35
+  - first:
+      213: 3488171603941486080
+    second: dotd_skeletonsheet_2_36
+  - first:
+      213: 7998211752383797512
+    second: dotd_skeletonsheet_2_37
+  - first:
+      213: 2744074006363379690
+    second: dotd_skeletonsheet_2_38
+  - first:
+      213: 4701446472672818191
+    second: dotd_skeletonsheet_2_39
+  - first:
+      213: -5915577743378896904
+    second: dotd_skeletonsheet_2_40
+  - first:
+      213: 4549644133675575981
+    second: dotd_skeletonsheet_2_41
+  - first:
+      213: -9145219160354769330
+    second: dotd_skeletonsheet_2_42
+  - first:
+      213: 4855419956705249474
+    second: dotd_skeletonsheet_2_43
+  - first:
+      213: -3500683688960588627
+    second: dotd_skeletonsheet_2_44
+  - first:
+      213: 2336292351044413738
+    second: dotd_skeletonsheet_2_45
+  - first:
+      213: 1633845630160112037
+    second: dotd_skeletonsheet_2_46
+  - first:
+      213: 1150431204588751544
+    second: dotd_skeletonsheet_2_47
+  - first:
+      213: -6773058819950994207
+    second: dotd_skeletonsheet_2_48
+  - first:
+      213: 2168375140176675792
+    second: dotd_skeletonsheet_2_49
+  - first:
+      213: 8093480226612623300
+    second: dotd_skeletonsheet_2_50
+  - first:
+      213: -6517909926603422513
+    second: dotd_skeletonsheet_2_51
+  - first:
+      213: 1948310972062364030
+    second: dotd_skeletonsheet_2_52
+  - first:
+      213: -9052428345472786566
+    second: dotd_skeletonsheet_2_53
+  - first:
+      213: -1017587190141575666
+    second: dotd_skeletonsheet_2_54
+  - first:
+      213: -8182627431517305324
+    second: dotd_skeletonsheet_2_55
+  - first:
+      213: -3752509747199211882
+    second: dotd_skeletonsheet_2_56
+  - first:
+      213: -8928669472556315520
+    second: dotd_skeletonsheet_2_57
+  - first:
+      213: -2261935993881993453
+    second: dotd_skeletonsheet_2_58
+  - first:
+      213: 4338032575759045350
+    second: dotd_skeletonsheet_2_59
+  - first:
+      213: -5844326549015239537
+    second: dotd_skeletonsheet_2_60
+  - first:
+      213: -7615463059515609437
+    second: dotd_skeletonsheet_2_61
+  - first:
+      213: -735513774720240394
+    second: dotd_skeletonsheet_2_62
+  - first:
+      213: -5969018060501642865
+    second: dotd_skeletonsheet_2_63
+  - first:
+      213: -5450081267772947673
+    second: dotd_skeletonsheet_2_64
+  - first:
+      213: 2761215276672962676
+    second: dotd_skeletonsheet_2_65
+  - first:
+      213: -5214417602930469608
+    second: dotd_skeletonsheet_2_66
+  - first:
+      213: 4934984896887569935
+    second: dotd_skeletonsheet_2_67
+  - first:
+      213: 2299138911954695308
+    second: dotd_skeletonsheet_2_68
+  - first:
+      213: -2646089258107477579
+    second: dotd_skeletonsheet_2_69
+  - first:
+      213: -8111142378763647065
+    second: dotd_skeletonsheet_2_70
+  - first:
+      213: -3964333112746435824
+    second: dotd_skeletonsheet_2_71
+  - first:
+      213: -7147001231831255005
+    second: dotd_skeletonsheet_2_72
+  - first:
+      213: -1712519065417035216
+    second: dotd_skeletonsheet_2_73
+  - first:
+      213: -6495522234864942607
+    second: dotd_skeletonsheet_2_74
+  - first:
+      213: 6872025070548070721
+    second: dotd_skeletonsheet_2_75
+  - first:
+      213: 7704712400420973680
+    second: dotd_skeletonsheet_2_76
+  - first:
+      213: -3879690181597555351
+    second: dotd_skeletonsheet_2_77
+  - first:
+      213: 5064343794113803163
+    second: dotd_skeletonsheet_2_78
+  - first:
+      213: -5137689194201267304
+    second: dotd_skeletonsheet_2_79
+  - first:
+      213: 8350945364055429871
+    second: dotd_skeletonsheet_2_80
+  - first:
+      213: -7968714933678766920
+    second: dotd_skeletonsheet_2_81
+  - first:
+      213: -941711591444033831
+    second: dotd_skeletonsheet_2_82
+  - first:
+      213: -3982235892729124537
+    second: dotd_skeletonsheet_2_83
+  - first:
+      213: -4819420243065642392
+    second: dotd_skeletonsheet_2_84
+  - first:
+      213: -7697457236065899378
+    second: dotd_skeletonsheet_2_85
+  - first:
+      213: 709311622213372920
+    second: dotd_skeletonsheet_2_86
+  - first:
+      213: 401177003842287234
+    second: dotd_skeletonsheet_2_87
+  - first:
+      213: -4707638126374921133
+    second: dotd_skeletonsheet_2_88
+  - first:
+      213: -9007525692375948203
+    second: dotd_skeletonsheet_2_89
+  - first:
+      213: 7568052525796019289
+    second: dotd_skeletonsheet_2_90
+  - first:
+      213: 1566887205292981422
+    second: dotd_skeletonsheet_2_91
+  - first:
+      213: -1410727550407953678
+    second: dotd_skeletonsheet_2_92
+  - first:
+      213: 6605628078482183470
+    second: dotd_skeletonsheet_2_93
+  - first:
+      213: -4125476891867181057
+    second: dotd_skeletonsheet_2_94
+  - first:
+      213: -2772606276991322123
+    second: dotd_skeletonsheet_2_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 505
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc82712427482e90800000000000000
+      internalID: -7050306996142961476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 505
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa247ae6ebf826740800000000000000
+      internalID: 5143831772473541295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 505
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68adc3a07cfea1b50800000000000000
+      internalID: 6564823044995209862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 505
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33776ad6233ed0e10800000000000000
+      internalID: 2165636801562572595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 505
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfc26b587899f480800000000000000
+      internalID: -8864886748805410872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 505
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e383b747aacf162c0800000000000000
+      internalID: -4439989948581726146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 505
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6c3fc37f637b0a0800000000000000
+      internalID: -6865958671395600700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 505
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ce5a5855617c440800000000000000
+      internalID: 4955954471514795167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 505
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dcf5b97a5c225a0800000000000000
+      internalID: -6547453584586322585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 505
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f62ad714d25f8a0800000000000000
+      internalID: -6272057146739626128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 505
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fba2416ff4292c90800000000000000
+      internalID: -7194178250480636937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 505
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ef92d8e37a62a90800000000000000
+      internalID: -7338994655655494081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 433
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726a63340e994b070800000000000000
+      internalID: 8121285216535225895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 433
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c50cf915eb2e070800000000000000
+      internalID: 8134273134766349441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 433
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56d54e166e439590800000000000000
+      internalID: -7668699539980298657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 433
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b067bf1e496f34bf0800000000000000
+      internalID: -341158027443079669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 433
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6489b1318591817d0800000000000000
+      internalID: -2947578090045597626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 433
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4241de864b5f6f0800000000000000
+      internalID: -651416208338049799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 433
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec8bc89466dcf110800000000000000
+      internalID: 1296146520324410597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 433
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b34e5841cb42cb0800000000000000
+      internalID: -4889576499085821053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 433
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0c05235c0c00c90800000000000000
+      internalID: -7205547450607550294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 433
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439cd3e5f7f14b1e0800000000000000
+      internalID: -2183085287465432780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 433
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38af893ad82e2cd0800000000000000
+      internalID: -2581080618703017923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 433
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8706b39cacb71d120800000000000000
+      internalID: 2436864984273870968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 361
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eb019d35a3f57a0800000000000000
+      internalID: -6386321614789624233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 361
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8d8b4122b1afbd0800000000000000
+      internalID: -2595732402035173185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 361
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3fbd9cc71012430800000000000000
+      internalID: 3756285199677912019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 361
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac7a78c56a5fb760800000000000000
+      internalID: 7475793299659979938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 361
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0c2841cd6f4af40800000000000000
+      internalID: 5738983250274205858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 361
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8940aa8419b857f80800000000000000
+      internalID: -8109422097905089384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 361
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665ce00412ffac3b0800000000000000
+      internalID: -5491296277351185050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 361
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb2e6e36ac1b4ad0800000000000000
+      internalID: -2717046449850405906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 361
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50e8c32c724f5e30800000000000000
+      internalID: 4494384054082789471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 361
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61e7673b4bf3d360800000000000000
+      internalID: 7193369330311487852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 361
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab79ce6a993a1aa0800000000000000
+      internalID: -6189571402420880467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 361
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676fbb551d73003f0800000000000000
+      internalID: -936687350266988938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 289
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e6988b799786030800000000000000
+      internalID: 3488171603941486080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 289
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809d033663b5ffe60800000000000000
+      internalID: 7998211752383797512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 289
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae71ca225c8e41620800000000000000
+      internalID: 2744074006363379690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 289
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f043d2658a4ee3140800000000000000
+      internalID: 4701446472672818191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 289
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7a1bc6265a7eda0800000000000000
+      internalID: -5915577743378896904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 289
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa2c2a0c35932f30800000000000000
+      internalID: 4549644133675575981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 289
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4635f980a7a51180800000000000000
+      internalID: -9145219160354769330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 289
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c842cab9bae16340800000000000000
+      internalID: 4855419956705249474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_44
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 289
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da400887bb21b6fc0800000000000000
+      internalID: -3500683688960588627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_45
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 289
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29e67bd38d2c6020800000000000000
+      internalID: 2336292351044413738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_46
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 289
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a98483b1f59ca610800000000000000
+      internalID: 1633845630160112037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_47
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 289
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba8908d51727ff00800000000000000
+      internalID: 1150431204588751544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 215
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec9ef173e24102a0800000000000000
+      internalID: -6773058819950994207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 215
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3c40293bd971e10800000000000000
+      internalID: 2168375140176675792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_50
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 215
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7b4ef8261d15070800000000000000
+      internalID: 8093480226612623300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_51
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 215
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc48fc2847bbb85a0800000000000000
+      internalID: -6517909926603422513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_52
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71f5c9a18ac90b10800000000000000
+      internalID: 1948310972062364030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_53
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 215
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fda61b1605f5280800000000000000
+      internalID: -9052428345472786566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_54
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 215
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e9f9b87ddc0e1f0800000000000000
+      internalID: -1017587190141575666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_55
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 215
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4164b0754b7717e80800000000000000
+      internalID: -8182627431517305324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_56
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 215
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696000e34486cebc0800000000000000
+      internalID: -3752509747199211882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_57
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 215
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c086bbb6ef61480800000000000000
+      internalID: -8928669472556315520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 215
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f5ef3a23dfb90e0800000000000000
+      internalID: -2261935993881993453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_59
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 215
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2d03ec4a9c33c30800000000000000
+      internalID: 4338032575759045350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 143
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ef8ed7f7c4eea0800000000000000
+      internalID: -5844326549015239537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 143
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae667122b0705690800000000000000
+      internalID: -7615463059515609437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_62
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 143
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4b46a6e1eeac5f0800000000000000
+      internalID: -735513774720240394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_63
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 143
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8198edf2b9c92da0800000000000000
+      internalID: -5969018060501642865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_64
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 143
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723026576fb6d54b0800000000000000
+      internalID: -5450081267772947673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_65
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 143
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47059722aaec15620800000000000000
+      internalID: 2761215276672962676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_66
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 143
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81519ca31daa2a7b0800000000000000
+      internalID: -5214417602930469608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_67
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 143
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0eb6e6fd969c7440800000000000000
+      internalID: 4934984896887569935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_68
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 143
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c847658b8ae28ef10800000000000000
+      internalID: 2299138911954695308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_69
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 143
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1e68ed6d3374bd0800000000000000
+      internalID: -2646089258107477579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_70
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 143
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a70d2f2bfe6f6f80800000000000000
+      internalID: -8111142378763647065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_71
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 143
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b1e63b90cdbf8c0800000000000000
+      internalID: -3964333112746435824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3283b6ffe30c0dc90800000000000000
+      internalID: -7147001231831255005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_73
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 71
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032dbbabbf8eb38e0800000000000000
+      internalID: -1712519065417035216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 71
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1493031f44bd5a0800000000000000
+      internalID: -6495522234864942607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_75
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 71
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141b89164665e5f50800000000000000
+      internalID: 6872025070548070721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_76
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 71
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ca3ab5b13acea60800000000000000
+      internalID: 7704712400420973680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_77
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 71
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9659e47d552982ac0800000000000000
+      internalID: -3879690181597555351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_78
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 71
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b937b9449d9284640800000000000000
+      internalID: 5064343794113803163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_79
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 71
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893454506e243b8b0800000000000000
+      internalID: -5137689194201267304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_80
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 71
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2183b309484e370800000000000000
+      internalID: 8350945364055429871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_81
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 71
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b40ab5ecff696190800000000000000
+      internalID: -7968714933678766920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_82
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 71
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de4c170c4e5ee2f0800000000000000
+      internalID: -941711591444033831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_83
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 71
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749e11aed814cb8c0800000000000000
+      internalID: -3982235892729124537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862eeb4c2dafd1db0800000000000000
+      internalID: -4819420243065642392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_85
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c288a3d632d2590800000000000000
+      internalID: -7697457236065899378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_86
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb851d892bf7d900800000000000000
+      internalID: 709311622213372920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_87
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28633160c54419500800000000000000
+      internalID: 401177003842287234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_88
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c5652f01c1baeb0800000000000000
+      internalID: -4707638126374921133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_89
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5542ab05b17def280800000000000000
+      internalID: -9007525692375948203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_90
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cc199ccaf170960800000000000000
+      internalID: 7568052525796019289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_91
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacb79a8c93beb510800000000000000
+      internalID: 1566887205292981422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_92
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2b31b64c61c6ce0800000000000000
+      internalID: -1410727550407953678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_93
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25d6404db7ebab50800000000000000
+      internalID: 6605628078482183470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_94
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff8c23ef9c5fb6c0800000000000000
+      internalID: -4125476891867181057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_skeletonsheet_2_95
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 0
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7f9ede749b589d0800000000000000
+      internalID: -2772606276991322123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dotd_skeletonsheet_2_0: -7050306996142961476
+      dotd_skeletonsheet_2_1: 5143831772473541295
+      dotd_skeletonsheet_2_10: -7194178250480636937
+      dotd_skeletonsheet_2_11: -7338994655655494081
+      dotd_skeletonsheet_2_12: 8121285216535225895
+      dotd_skeletonsheet_2_13: 8134273134766349441
+      dotd_skeletonsheet_2_14: -7668699539980298657
+      dotd_skeletonsheet_2_15: -341158027443079669
+      dotd_skeletonsheet_2_16: -2947578090045597626
+      dotd_skeletonsheet_2_17: -651416208338049799
+      dotd_skeletonsheet_2_18: 1296146520324410597
+      dotd_skeletonsheet_2_19: -4889576499085821053
+      dotd_skeletonsheet_2_2: 6564823044995209862
+      dotd_skeletonsheet_2_20: -7205547450607550294
+      dotd_skeletonsheet_2_21: -2183085287465432780
+      dotd_skeletonsheet_2_22: -2581080618703017923
+      dotd_skeletonsheet_2_23: 2436864984273870968
+      dotd_skeletonsheet_2_24: -6386321614789624233
+      dotd_skeletonsheet_2_25: -2595732402035173185
+      dotd_skeletonsheet_2_26: 3756285199677912019
+      dotd_skeletonsheet_2_27: 7475793299659979938
+      dotd_skeletonsheet_2_28: 5738983250274205858
+      dotd_skeletonsheet_2_29: -8109422097905089384
+      dotd_skeletonsheet_2_3: 2165636801562572595
+      dotd_skeletonsheet_2_30: -5491296277351185050
+      dotd_skeletonsheet_2_31: -2717046449850405906
+      dotd_skeletonsheet_2_32: 4494384054082789471
+      dotd_skeletonsheet_2_33: 7193369330311487852
+      dotd_skeletonsheet_2_34: -6189571402420880467
+      dotd_skeletonsheet_2_35: -936687350266988938
+      dotd_skeletonsheet_2_36: 3488171603941486080
+      dotd_skeletonsheet_2_37: 7998211752383797512
+      dotd_skeletonsheet_2_38: 2744074006363379690
+      dotd_skeletonsheet_2_39: 4701446472672818191
+      dotd_skeletonsheet_2_4: -8864886748805410872
+      dotd_skeletonsheet_2_40: -5915577743378896904
+      dotd_skeletonsheet_2_41: 4549644133675575981
+      dotd_skeletonsheet_2_42: -9145219160354769330
+      dotd_skeletonsheet_2_43: 4855419956705249474
+      dotd_skeletonsheet_2_44: -3500683688960588627
+      dotd_skeletonsheet_2_45: 2336292351044413738
+      dotd_skeletonsheet_2_46: 1633845630160112037
+      dotd_skeletonsheet_2_47: 1150431204588751544
+      dotd_skeletonsheet_2_48: -6773058819950994207
+      dotd_skeletonsheet_2_49: 2168375140176675792
+      dotd_skeletonsheet_2_5: -4439989948581726146
+      dotd_skeletonsheet_2_50: 8093480226612623300
+      dotd_skeletonsheet_2_51: -6517909926603422513
+      dotd_skeletonsheet_2_52: 1948310972062364030
+      dotd_skeletonsheet_2_53: -9052428345472786566
+      dotd_skeletonsheet_2_54: -1017587190141575666
+      dotd_skeletonsheet_2_55: -8182627431517305324
+      dotd_skeletonsheet_2_56: -3752509747199211882
+      dotd_skeletonsheet_2_57: -8928669472556315520
+      dotd_skeletonsheet_2_58: -2261935993881993453
+      dotd_skeletonsheet_2_59: 4338032575759045350
+      dotd_skeletonsheet_2_6: -6865958671395600700
+      dotd_skeletonsheet_2_60: -5844326549015239537
+      dotd_skeletonsheet_2_61: -7615463059515609437
+      dotd_skeletonsheet_2_62: -735513774720240394
+      dotd_skeletonsheet_2_63: -5969018060501642865
+      dotd_skeletonsheet_2_64: -5450081267772947673
+      dotd_skeletonsheet_2_65: 2761215276672962676
+      dotd_skeletonsheet_2_66: -5214417602930469608
+      dotd_skeletonsheet_2_67: 4934984896887569935
+      dotd_skeletonsheet_2_68: 2299138911954695308
+      dotd_skeletonsheet_2_69: -2646089258107477579
+      dotd_skeletonsheet_2_7: 4955954471514795167
+      dotd_skeletonsheet_2_70: -8111142378763647065
+      dotd_skeletonsheet_2_71: -3964333112746435824
+      dotd_skeletonsheet_2_72: -7147001231831255005
+      dotd_skeletonsheet_2_73: -1712519065417035216
+      dotd_skeletonsheet_2_74: -6495522234864942607
+      dotd_skeletonsheet_2_75: 6872025070548070721
+      dotd_skeletonsheet_2_76: 7704712400420973680
+      dotd_skeletonsheet_2_77: -3879690181597555351
+      dotd_skeletonsheet_2_78: 5064343794113803163
+      dotd_skeletonsheet_2_79: -5137689194201267304
+      dotd_skeletonsheet_2_8: -6547453584586322585
+      dotd_skeletonsheet_2_80: 8350945364055429871
+      dotd_skeletonsheet_2_81: -7968714933678766920
+      dotd_skeletonsheet_2_82: -941711591444033831
+      dotd_skeletonsheet_2_83: -3982235892729124537
+      dotd_skeletonsheet_2_84: -4819420243065642392
+      dotd_skeletonsheet_2_85: -7697457236065899378
+      dotd_skeletonsheet_2_86: 709311622213372920
+      dotd_skeletonsheet_2_87: 401177003842287234
+      dotd_skeletonsheet_2_88: -4707638126374921133
+      dotd_skeletonsheet_2_89: -9007525692375948203
+      dotd_skeletonsheet_2_9: -6272057146739626128
+      dotd_skeletonsheet_2_90: 7568052525796019289
+      dotd_skeletonsheet_2_91: 1566887205292981422
+      dotd_skeletonsheet_2_92: -1410727550407953678
+      dotd_skeletonsheet_2_93: 6605628078482183470
+      dotd_skeletonsheet_2_94: -4125476891867181057
+      dotd_skeletonsheet_2_95: -2772606276991322123
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
