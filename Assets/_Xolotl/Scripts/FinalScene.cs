@@ -22,7 +22,7 @@ public class FinalScene : MonoBehaviour
         "Las veladoras se avivan.",
         "El pan de muerto todavía está tibio.",
         "La familia no puede verla, pero sabe que llegó.",
-        "Rosa baja de tu lomo y acaricia tu cabeza."
+        "Aurora baja de tu lomo y acaricia tu cabeza."
     };
     [TextArea(2, 4)][SerializeField] string endingAll = "«Me trajiste todos mis recuerdos. Ahora sí estoy completa.»";
     [TextArea(2, 4)][SerializeField] string endingSome = "«Algunos recuerdos se quedaron en el camino, pero mi familia guarda el resto.»";

@@ -1,9 +1,10 @@
-# Xólotl — Spooky Game Jam (Hybridge) · Kiske Studio
+# Xólotl: Antes del Amanecer — Spooky Game Jam (Hybridge) · Kiske Studio
 
 ## Contexto
+- Nombre completo del juego: **Xólotl: Antes del Amanecer** (ya existe un "Xolotl" en Steam, de Anchor Games, 2022). La abuela se llama Aurora.
 - Juego 2D de plataformas en pixel art, Unity 6.5 (6000.5.4f1), URP 2D, build **solo Web (WebGL)**.
 - Jam del 26 al 30 de octubre de 2026. **Entrega real: jueves 29 antes de las 11:00 p. m.**
-- Temática: "visitantes del más allá". Xólotl, el perro de fuego que guía a los muertos, cruza al pueblo de los vivos la noche del 1 de noviembre para llevar el alma de la abuela Rosa a su ofrenda.
+- Temática: "visitantes del más allá". Xólotl, el perro de fuego que guía a los muertos, cruza al pueblo de los vivos la noche del 1 de noviembre para llevar el alma de la abuela Aurora a su ofrenda.
 - Mecánica central: una sola variable, el radio de luz de Xólotl. Se consume con el tiempo, se recarga con pétalos de cempasúchil y se gasta en la llamarada.
 - Mecánicas obligatorias de la jam: protagonista sobrenatural, interacción con el mundo humano, gestión de recursos, victoria y derrota, jugabilidad interactiva.
 

@@ -176,14 +176,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "X\xD3LOTL \u2014 Kiske Studio\nSpooky Game Jam de Hybridge, 2026\n\nDise\xF1o,
-    programaci\xF3n y m\xFAsica: Jurgen Guerrero\n\nArte de terceros (gratuito, con
-    cr\xE9dito):\nBenvictus (Pixel Dogs) \xB7 Camacebra Games \xB7 Anokolisa (Classic
-    NES Legacy Pack)\nSegart \xB7 finalbossblues \xB7 CCCreations y Tonbi\nEfectos
-    de sonido: Kenney (CC0)\n\nUso de inteligencia artificial: se us\xF3 Claude (Anthropic)
-    para el dise\xF1o del juego,\nla investigaci\xF3n de assets gratuitos, el c\xF3digo
-    en C# y el armado de escenas en Unity\nmediante Claude Code. El arte, la m\xFAsica
-    y los efectos de sonido no fueron generados con IA."
+  m_text: "X\xF3lotl: Antes del Amanecer \u2014 Kiske Studio\nSpooky Game Jam de
+    Hybridge, 2026\n\nDise\xF1o, programaci\xF3n y m\xFAsica: Jurgen Guerrero\n\nArte
+    de terceros (gratuito, con cr\xE9dito):\nBenvictus (Pixel Dogs) \xB7 Camacebra
+    Games \xB7 Anokolisa (Classic NES Legacy Pack)\nSegart \xB7 finalbossblues \xB7
+    CCCreations y Tonbi\nEfectos de sonido: Kenney (CC0)\n\nUso de inteligencia artificial:
+    se us\xF3 Claude (Anthropic) para el dise\xF1o del juego,\nla investigaci\xF3n
+    de assets gratuitos, el c\xF3digo en C# y el armado de escenas en Unity\nmediante
+    Claude Code. El arte, la m\xFAsica y los efectos de sonido no fueron generados
+    con IA."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1016,7 +1017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "El gu\xEDa de los muertos"
+  m_text: Antes del Amanecer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
