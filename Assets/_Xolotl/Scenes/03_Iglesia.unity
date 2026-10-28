@@ -150,7 +150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &3041842
 BoxCollider2D:
@@ -184,7 +184,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -289,7 +289,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7577225
 BoxCollider2D:
@@ -323,7 +323,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -397,6 +397,154 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &7696297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7696298}
+  - component: {fileID: 7696300}
+  - component: {fileID: 7696299}
+  m_Layer: 10
+  m_Name: Zona_Suelo_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7696298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1488412159}
+  - {fileID: 1947756116}
+  - {fileID: 1881042358}
+  m_Father: {fileID: 1310677748}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &7696299
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696297}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1488412160}
+    m_ColliderPaths:
+    - - X: 2155000064
+        Y: 0
+      - X: 1970000000
+        Y: 0
+      - X: 1970000000
+        Y: -10000000
+      - X: 2155000064
+        Y: -10000000
+  - m_Collider: {fileID: 1947756117}
+    m_ColliderPaths:
+    - - X: 2035000064
+        Y: 10000000
+      - X: 2024999936
+        Y: 10000000
+      - X: 2024999936
+        Y: 0
+      - X: 2035000064
+        Y: 0
+  - m_Collider: {fileID: 1881042359}
+    m_ColliderPaths:
+    - - X: 2160000000
+        Y: 190000000
+      - X: 2150000128
+        Y: 190000000
+      - X: 2150000128
+        Y: -10000000
+      - X: 2160000000
+        Y: -10000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 215.99997, y: -1}
+      - {x: 215.99997, y: 19}
+      - {x: 215.00002, y: 18.999971}
+      - {x: 214.99998, y: 0}
+      - {x: 203.50002, y: 0.0000294}
+      - {x: 203.49998, y: 1}
+      - {x: 202.5, y: 0.99997073}
+      - {x: 202.49997, y: 0}
+      - {x: 197, y: -0.000029300001}
+      - {x: 197.00003, y: -1}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 7696297}
+--- !u!50 &7696300
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696297}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &24559090
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +576,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &24559092
 BoxCollider2D:
@@ -462,7 +610,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -629,7 +777,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &48961284
 BoxCollider2D:
@@ -663,7 +811,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -1135,7 +1283,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &116029504
 BoxCollider2D:
@@ -1169,7 +1317,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -1336,7 +1484,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 1477281146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &123831612
 BoxCollider2D:
@@ -1370,7 +1518,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -1537,7 +1685,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &159361955
 BoxCollider2D:
@@ -1571,7 +1719,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -1738,7 +1886,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &178059455
 BoxCollider2D:
@@ -1772,7 +1920,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -2016,7 +2164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &234685232
 BoxCollider2D:
@@ -2050,7 +2198,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -2247,7 +2395,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &312777396
 BoxCollider2D:
@@ -2281,7 +2429,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -2355,6 +2503,451 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &337642399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337642400}
+  - component: {fileID: 337642402}
+  - component: {fileID: 337642401}
+  m_Layer: 10
+  m_Name: Zona_Suelo_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &337642400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337642399}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 841597077}
+  - {fileID: 312777395}
+  - {fileID: 1565552077}
+  - {fileID: 1980597263}
+  - {fileID: 24559091}
+  - {fileID: 858597589}
+  - {fileID: 1534988547}
+  - {fileID: 7577224}
+  - {fileID: 178059454}
+  - {fileID: 3041841}
+  - {fileID: 48961283}
+  - {fileID: 1151108856}
+  - {fileID: 948981220}
+  - {fileID: 1569837325}
+  - {fileID: 808971206}
+  - {fileID: 1494511700}
+  - {fileID: 159361954}
+  - {fileID: 1061084528}
+  - {fileID: 1997634603}
+  - {fileID: 234685231}
+  - {fileID: 2032901386}
+  - {fileID: 1266377920}
+  - {fileID: 116029503}
+  - {fileID: 838318766}
+  m_Father: {fileID: 1310677748}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &337642401
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337642399}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 841597078}
+    m_ColliderPaths:
+    - - X: -10000000
+        Y: 190000000
+      - X: -20000000
+        Y: 190000000
+      - X: -20000000
+        Y: -10000000
+      - X: -10000000
+        Y: -10000000
+  - m_Collider: {fileID: 312777396}
+    m_ColliderPaths:
+    - - X: 1000000000
+        Y: 0
+      - X: -10000000
+        Y: 0
+      - X: -10000000
+        Y: -10000000
+      - X: 1000000000
+        Y: -10000000
+  - m_Collider: {fileID: 1565552078}
+    m_ColliderPaths:
+    - - X: 415000000
+        Y: 8000000
+      - X: 385000000
+        Y: 8000000
+      - X: 385000000
+        Y: 0
+      - X: 415000000
+        Y: 0
+  - m_Collider: {fileID: 1980597264}
+    m_ColliderPaths:
+    - - X: 535000000
+        Y: 8000000
+      - X: 505000000
+        Y: 8000000
+      - X: 505000000
+        Y: 0
+      - X: 535000000
+        Y: 0
+  - m_Collider: {fileID: 24559092}
+    m_ColliderPaths:
+    - - X: 595000000
+        Y: 8000000
+      - X: 565000000
+        Y: 8000000
+      - X: 565000000
+        Y: 0
+      - X: 595000000
+        Y: 0
+  - m_Collider: {fileID: 858597590}
+    m_ColliderPaths:
+    - - X: 675000000
+        Y: 8000000
+      - X: 645000000
+        Y: 8000000
+      - X: 645000000
+        Y: 0
+      - X: 675000000
+        Y: 0
+  - m_Collider: {fileID: 1534988548}
+    m_ColliderPaths:
+    - - X: 775000000
+        Y: 8000000
+      - X: 745000000
+        Y: 8000000
+      - X: 745000000
+        Y: 0
+      - X: 775000000
+        Y: 0
+  - m_Collider: {fileID: 7577225}
+    m_ColliderPaths:
+    - - X: 840000000
+        Y: 15000000
+      - X: 810000000
+        Y: 15000000
+      - X: 810000000
+        Y: 0
+      - X: 840000000
+        Y: 0
+  - m_Collider: {fileID: 178059455}
+    m_ColliderPaths:
+    - - X: 1000000000
+        Y: 140000000
+      - X: 960000000
+        Y: 140000000
+      - X: 960000000
+        Y: 135000000
+      - X: 1000000000
+        Y: 135000000
+  - m_Collider: {fileID: 3041842}
+    m_ColliderPaths:
+    - - X: 970000000
+        Y: 135000000
+      - X: 960000000
+        Y: 135000000
+      - X: 960000000
+        Y: 0
+      - X: 970000000
+        Y: 0
+  - m_Collider: {fileID: 48961284}
+    m_ColliderPaths:
+    - - X: 1030000000
+        Y: 0
+      - X: 1000000000
+        Y: 0
+      - X: 1000000000
+        Y: -70000000
+      - X: 1030000000
+        Y: -70000000
+  - m_Collider: {fileID: 1151108857}
+    m_ColliderPaths:
+    - - X: 1050000000
+        Y: -20000000
+      - X: 1030000000
+        Y: -20000000
+      - X: 1030000000
+        Y: -70000000
+      - X: 1050000000
+        Y: -70000000
+  - m_Collider: {fileID: 948981221}
+    m_ColliderPaths:
+    - - X: 1070000000
+        Y: -40000000
+      - X: 1050000000
+        Y: -40000000
+      - X: 1050000000
+        Y: -70000000
+      - X: 1070000000
+        Y: -70000000
+  - m_Collider: {fileID: 1569837326}
+    m_ColliderPaths:
+    - - X: 1390000000
+        Y: -60000000
+      - X: 1070000000
+        Y: -60000000
+      - X: 1070000000
+        Y: -70000000
+      - X: 1390000000
+        Y: -70000000
+  - m_Collider: {fileID: 808971207}
+    m_ColliderPaths:
+    - - X: 1144999936
+        Y: -40000000
+      - X: 1135000064
+        Y: -40000000
+      - X: 1135000064
+        Y: -60000000
+      - X: 1144999936
+        Y: -60000000
+  - m_Collider: {fileID: 1494511701}
+    m_ColliderPaths:
+    - - X: 1195000064
+        Y: -40000000
+      - X: 1184999936
+        Y: -40000000
+      - X: 1184999936
+        Y: -60000000
+      - X: 1195000064
+        Y: -60000000
+  - m_Collider: {fileID: 159361955}
+    m_ColliderPaths:
+    - - X: 1284999936
+        Y: -40000000
+      - X: 1275000064
+        Y: -40000000
+      - X: 1275000064
+        Y: -60000000
+      - X: 1284999936
+        Y: -60000000
+  - m_Collider: {fileID: 1061084529}
+    m_ColliderPaths:
+    - - X: 1335000064
+        Y: -40000000
+      - X: 1324999936
+        Y: -40000000
+      - X: 1324999936
+        Y: -60000000
+      - X: 1335000064
+        Y: -60000000
+  - m_Collider: {fileID: 1997634604}
+    m_ColliderPaths:
+    - - X: 1410000000
+        Y: -40000000
+      - X: 1390000000
+        Y: -40000000
+      - X: 1390000000
+        Y: -70000000
+      - X: 1410000000
+        Y: -70000000
+  - m_Collider: {fileID: 234685232}
+    m_ColliderPaths:
+    - - X: 1430000000
+        Y: -20000000
+      - X: 1410000000
+        Y: -20000000
+      - X: 1410000000
+        Y: -70000000
+      - X: 1430000000
+        Y: -70000000
+  - m_Collider: {fileID: 2032901387}
+    m_ColliderPaths:
+    - - X: 1450000000
+        Y: 0
+      - X: 1430000000
+        Y: 0
+      - X: 1430000000
+        Y: -70000000
+      - X: 1450000000
+        Y: -70000000
+  - m_Collider: {fileID: 1266377921}
+    m_ColliderPaths:
+    - - X: 1670000000
+        Y: 0
+      - X: 1450000000
+        Y: 0
+      - X: 1450000000
+        Y: -10000000
+      - X: 1670000000
+        Y: -10000000
+  - m_Collider: {fileID: 116029504}
+    m_ColliderPaths:
+    - - X: 1555000064
+        Y: 10000000
+      - X: 1544999936
+        Y: 10000000
+      - X: 1544999936
+        Y: 0
+      - X: 1555000064
+        Y: 0
+  - m_Collider: {fileID: 838318767}
+    m_ColliderPaths:
+    - - X: 1635000064
+        Y: 10000000
+      - X: 1624999936
+        Y: 10000000
+      - X: 1624999936
+        Y: 0
+      - X: 1635000064
+        Y: 0
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 144.99997, y: -7}
+      - {x: 145.00003, y: -1}
+      - {x: 167, y: -0.99997073}
+      - {x: 166.99997, y: 0}
+      - {x: 163.50002, y: 0.0000294}
+      - {x: 163.49998, y: 1}
+      - {x: 162.5, y: 0.99997073}
+      - {x: 162.49997, y: 0}
+      - {x: 155.50002, y: 0.0000294}
+      - {x: 155.49998, y: 1}
+      - {x: 154.5, y: 0.99997073}
+      - {x: 154.49997, y: 0}
+      - {x: 143, y: -0.000029300001}
+      - {x: 142.99997, y: -2}
+      - {x: 141, y: -2.0000293}
+      - {x: 140.99997, y: -4}
+      - {x: 139, y: -4.000029}
+      - {x: 138.99997, y: -6}
+      - {x: 133.50002, y: -5.9999704}
+      - {x: 133.49998, y: -4}
+      - {x: 132.5, y: -4.000029}
+      - {x: 132.49997, y: -6}
+      - {x: 128.5, y: -5.9999704}
+      - {x: 128.49997, y: -4}
+      - {x: 127.50001, y: -4.000029}
+      - {x: 127.499985, y: -6}
+      - {x: 119.50001, y: -5.9999704}
+      - {x: 119.499985, y: -4}
+      - {x: 118.49999, y: -4.000029}
+      - {x: 118.49997, y: -6}
+      - {x: 114.49999, y: -5.9999704}
+      - {x: 114.49997, y: -4}
+      - {x: 113.50001, y: -4.000029}
+      - {x: 113.499985, y: -6}
+      - {x: 107, y: -5.9999704}
+      - {x: 106.99997, y: -4}
+      - {x: 105, y: -3.9999704}
+      - {x: 104.99997, y: -2}
+      - {x: 103, y: -1.9999707}
+      - {x: 102.99997, y: 0}
+      - {x: 97, y: 0.0000294}
+      - {x: 97.00003, y: 13.5}
+      - {x: 100, y: 13.500029}
+      - {x: 99.99997, y: 14}
+      - {x: 96, y: 13.999971}
+      - {x: 95.99997, y: 0}
+      - {x: 84, y: 0.0000294}
+      - {x: 83.99997, y: 1.5}
+      - {x: 81, y: 1.4999707}
+      - {x: 80.99997, y: 0}
+      - {x: 77.5, y: 0.0000294}
+      - {x: 77.49997, y: 0.8}
+      - {x: 74.5, y: 0.7999707}
+      - {x: 74.49997, y: 0}
+      - {x: 67.5, y: 0.0000294}
+      - {x: 67.49997, y: 0.8}
+      - {x: 64.5, y: 0.7999707}
+      - {x: 64.49997, y: 0}
+      - {x: 59.5, y: 0.0000294}
+      - {x: 59.49997, y: 0.8}
+      - {x: 56.5, y: 0.7999707}
+      - {x: 56.49997, y: 0}
+      - {x: 53.5, y: 0.0000294}
+      - {x: 53.499973, y: 0.8}
+      - {x: 50.5, y: 0.7999707}
+      - {x: 50.499973, y: 0}
+      - {x: 41.5, y: 0.0000294}
+      - {x: 41.499973, y: 0.8}
+      - {x: 38.5, y: 0.7999707}
+      - {x: 38.499973, y: 0}
+      - {x: -1, y: 0.0000294}
+      - {x: -1.0000293, y: 19}
+      - {x: -2, y: 18.999971}
+      - {x: -1.9999708, y: -1}
+      - {x: 100, y: -1.0000294}
+      - {x: 100.00003, y: -7}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 337642399}
+--- !u!50 &337642402
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337642399}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &345423181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3426,7 +4019,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 1477281146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &695987852
 BoxCollider2D:
@@ -3460,7 +4053,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -3914,7 +4507,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &808971207
 BoxCollider2D:
@@ -3948,7 +4541,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -4115,7 +4708,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &838318767
 BoxCollider2D:
@@ -4149,7 +4742,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -4254,7 +4847,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 1234473309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &841421799
 BoxCollider2D:
@@ -4288,7 +4881,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -4392,7 +4985,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &841597078
 BoxCollider2D:
@@ -4426,7 +5019,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -4471,7 +5064,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &858597590
 BoxCollider2D:
@@ -4505,7 +5098,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -4764,7 +5357,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 1477281146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &869019915
 BoxCollider2D:
@@ -4798,7 +5391,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -5177,7 +5770,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &948981221
 BoxCollider2D:
@@ -5211,7 +5804,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -5502,7 +6095,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1061084529
 BoxCollider2D:
@@ -5536,7 +6129,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -5871,7 +6464,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1151108857
 BoxCollider2D:
@@ -5905,7 +6498,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -6438,6 +7031,156 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1234473308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1234473309}
+  - component: {fileID: 1234473311}
+  - component: {fileID: 1234473310}
+  m_Layer: 10
+  m_Name: Zona_Suelo_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1234473309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234473308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1908827749}
+  - {fileID: 841421798}
+  - {fileID: 1982810805}
+  m_Father: {fileID: 1310677748}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &1234473310
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234473308}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1908827750}
+    m_ColliderPaths:
+    - - X: 1910000000
+        Y: 0
+      - X: 1730000000
+        Y: 0
+      - X: 1730000000
+        Y: -10000000
+      - X: 1910000000
+        Y: -10000000
+  - m_Collider: {fileID: 841421799}
+    m_ColliderPaths:
+    - - X: 1795000064
+        Y: 10000000
+      - X: 1784999936
+        Y: 10000000
+      - X: 1784999936
+        Y: 0
+      - X: 1795000064
+        Y: 0
+  - m_Collider: {fileID: 1982810806}
+    m_ColliderPaths:
+    - - X: 1855000064
+        Y: 10000000
+      - X: 1844999936
+        Y: 10000000
+      - X: 1844999936
+        Y: 0
+      - X: 1855000064
+        Y: 0
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 190.99997, y: -1}
+      - {x: 190.99997, y: 0}
+      - {x: 185.50002, y: 0.0000294}
+      - {x: 185.49998, y: 1}
+      - {x: 184.5, y: 0.99997073}
+      - {x: 184.49997, y: 0}
+      - {x: 179.50002, y: 0.0000294}
+      - {x: 179.49998, y: 1}
+      - {x: 178.5, y: 0.99997073}
+      - {x: 178.49997, y: 0}
+      - {x: 173, y: -0.000029300001}
+      - {x: 173.00003, y: -1}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 1234473308}
+--- !u!50 &1234473311
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234473308}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1250633427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6539,7 +7282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1266377921
 BoxCollider2D:
@@ -6573,7 +7316,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -6757,23 +7500,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 841597077}
-  - {fileID: 1881042358}
-  - {fileID: 312777395}
-  - {fileID: 1266377920}
-  - {fileID: 1908827749}
-  - {fileID: 1488412159}
   - {fileID: 785312020}
   - {fileID: 2094586873}
   - {fileID: 2006698085}
-  - {fileID: 695987851}
-  - {fileID: 869019914}
-  - {fileID: 123831611}
-  - {fileID: 1565552077}
-  - {fileID: 1980597263}
-  - {fileID: 24559091}
-  - {fileID: 858597589}
-  - {fileID: 1534988547}
   - {fileID: 1810079224}
   - {fileID: 2004398650}
   - {fileID: 1551272369}
@@ -6783,20 +7512,12 @@ Transform:
   - {fileID: 970305228}
   - {fileID: 398623636}
   - {fileID: 161915011}
-  - {fileID: 7577224}
   - {fileID: 1728681347}
   - {fileID: 1335654870}
   - {fileID: 1195829678}
   - {fileID: 885684975}
   - {fileID: 1509832829}
   - {fileID: 201361995}
-  - {fileID: 3041841}
-  - {fileID: 178059454}
-  - {fileID: 116029503}
-  - {fileID: 838318766}
-  - {fileID: 841421798}
-  - {fileID: 1982810805}
-  - {fileID: 1947756116}
   - {fileID: 1404982139}
   - {fileID: 1871193655}
   - {fileID: 548699377}
@@ -6805,6 +7526,10 @@ Transform:
   - {fileID: 1196450704}
   - {fileID: 1447731172}
   - {fileID: 1361166307}
+  - {fileID: 337642400}
+  - {fileID: 1477281146}
+  - {fileID: 1234473309}
+  - {fileID: 7696298}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1319434521
@@ -7191,18 +7916,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 48961283}
-  - {fileID: 1151108856}
-  - {fileID: 948981220}
-  - {fileID: 1569837325}
   - {fileID: 2029508815}
-  - {fileID: 1997634603}
-  - {fileID: 234685231}
-  - {fileID: 2032901386}
-  - {fileID: 808971206}
-  - {fileID: 1494511700}
-  - {fileID: 159361954}
-  - {fileID: 1061084528}
   m_Father: {fileID: 1310677748}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1374276701
@@ -7782,6 +8496,152 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1477281145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1477281146}
+  - component: {fileID: 1477281148}
+  - component: {fileID: 1477281147}
+  m_Layer: 10
+  m_Name: Zona_Suelo_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1477281146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477281145}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 123831611}
+  - {fileID: 695987851}
+  - {fileID: 869019914}
+  m_Father: {fileID: 1310677748}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &1477281147
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477281145}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 123831612}
+    m_ColliderPaths:
+    - - X: 855000000
+        Y: 125000000
+      - X: 345000000
+        Y: 125000000
+      - X: 345000000
+        Y: 120000000
+      - X: 855000000
+        Y: 120000000
+  - m_Collider: {fileID: 695987852}
+    m_ColliderPaths:
+    - - X: 355000000
+        Y: 125000000
+      - X: 345000000
+        Y: 125000000
+      - X: 345000000
+        Y: 50000000
+      - X: 355000000
+        Y: 50000000
+  - m_Collider: {fileID: 869019915}
+    m_ColliderPaths:
+    - - X: 855000000
+        Y: 125000000
+      - X: 845000000
+        Y: 125000000
+      - X: 845000000
+        Y: 50000000
+      - X: 855000000
+        Y: 50000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 35.499973, y: 5}
+      - {x: 35.50003, y: 12}
+      - {x: 84.5, y: 11.99997}
+      - {x: 84.50003, y: 5}
+      - {x: 85.5, y: 5.000029}
+      - {x: 85.49997, y: 12.5}
+      - {x: 34.5, y: 12.49997}
+      - {x: 34.50003, y: 5}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 1477281145}
+--- !u!50 &1477281148
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477281145}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1481091460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7897,7 +8757,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 7696298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1488412160
 BoxCollider2D:
@@ -7931,7 +8791,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -8098,7 +8958,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1494511701
 BoxCollider2D:
@@ -8132,7 +8992,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -8660,7 +9520,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1534988548
 BoxCollider2D:
@@ -8694,7 +9554,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -9074,7 +9934,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1565552078
 BoxCollider2D:
@@ -9108,7 +9968,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -9213,7 +10073,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1569837326
 BoxCollider2D:
@@ -9247,7 +10107,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -10557,7 +11417,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 7696298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1881042359
 BoxCollider2D:
@@ -10591,7 +11451,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -10837,7 +11697,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 1234473309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1908827750
 BoxCollider2D:
@@ -10871,7 +11731,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -10976,7 +11836,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 7696298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1947756117
 BoxCollider2D:
@@ -11010,7 +11870,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -11152,7 +12012,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1980597264
 BoxCollider2D:
@@ -11186,7 +12046,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -11291,7 +12151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1310677748}
+  m_Father: {fileID: 1234473309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1982810806
 BoxCollider2D:
@@ -11325,7 +12185,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -11492,7 +12352,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1997634604
 BoxCollider2D:
@@ -11526,7 +12386,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -12079,7 +12939,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1361166307}
+  m_Father: {fileID: 337642400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2032901387
 BoxCollider2D:
@@ -12113,7 +12973,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
