@@ -13,6 +13,9 @@ public class OlvidadoController : MonoBehaviour
     [Header("Persecución")]
     [SerializeField] float moveSpeed = 1.5f;
     [SerializeField] float detectionRange = 10f;
+    [Tooltip("Variante del sótano: solo avanza mientras Xólotl se mueve")]
+    [SerializeField] bool onlyMoveWhenPlayerMoves = false;
+    [SerializeField] float playerMoveThreshold = 0.3f;
 
     [Header("Daño")]
     [SerializeField] float hitRadius = 0.7f;
@@ -39,6 +42,7 @@ public class OlvidadoController : MonoBehaviour
 
     XolotlLight xolotlLight;
     XolotlController xolotlController;
+    Rigidbody2D playerRb;
     Vector3 startPosition;
     Vector3 basePosition;   // posición sin el balanceo
     Vector2 repelVelocity;
@@ -55,7 +59,11 @@ public class OlvidadoController : MonoBehaviour
     void Awake()
     {
         xolotlLight = FindAnyObjectByType<XolotlLight>();
-        if (xolotlLight != null) xolotlController = xolotlLight.GetComponent<XolotlController>();
+        if (xolotlLight != null)
+        {
+            xolotlController = xolotlLight.GetComponent<XolotlController>();
+            playerRb = xolotlLight.GetComponent<Rigidbody2D>();
+        }
         if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         startPosition = transform.position;
@@ -89,6 +97,11 @@ public class OlvidadoController : MonoBehaviour
 
         isFrozen = LightRegistry.IsLit(basePosition);
 
+        // Variante del sótano: si Xólotl se queda quieto, el olvidado también
+        bool playerMoving = playerRb == null ||
+            playerRb.linearVelocity.sqrMagnitude > playerMoveThreshold * playerMoveThreshold;
+        bool canChase = !onlyMoveWhenPlayerMoves || playerMoving;
+
         // La llamarada empuja a los olvidados que alcanza (una vez por llamarada)
         if (xolotlLight.IsFlaring)
         {
@@ -109,13 +122,13 @@ public class OlvidadoController : MonoBehaviour
             repelTimer -= dt;
             basePosition += (Vector3)(repelVelocity * dt);
         }
-        else if (!isFrozen && distance <= detectionRange && distance > 0.01f)
+        else if (!isFrozen && canChase && distance <= detectionRange && distance > 0.01f)
         {
             basePosition += (Vector3)(toPlayer / distance * moveSpeed * dt);
         }
 
         // El balanceo se detiene cuando está congelado, sin saltos visuales
-        if (!isFrozen) bobTime += dt;
+        if (!isFrozen && canChase) bobTime += dt;
         transform.position = basePosition + Vector3.up * (Mathf.Sin(bobTime * bobSpeed) * bobAmplitude);
 
         UpdateVisual(toPlayer.x, dt);

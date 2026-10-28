@@ -15,6 +15,16 @@ public class Veladora : LightSource
     [Tooltip("Dónde reaparece Xólotl. Si está vacío, usa la posición de la veladora.")]
     [SerializeField] Transform respawnPoint;
 
+    [Header("Viento (opcional)")]
+    [Tooltip("Segundos encendida en cada ciclo de viento. 0 = sin viento.")]
+    [SerializeField] float windOnTime = 0f;
+    [Tooltip("Segundos apagada por el viento en cada ciclo.")]
+    [SerializeField] float windOffTime = 0f;
+    [Tooltip("Desfase del ciclo, para que varias veladoras no se apaguen al mismo tiempo.")]
+    [SerializeField] float windPhaseOffset = 0f;
+    [Tooltip("Segundos antes de apagarse en los que la flama tiembla para avisar.")]
+    [SerializeField] float windWarningTime = 0.7f;
+
     [Header("Recarga")]
     [Tooltip("Luz por segundo que recupera Xólotl mientras está junto a una veladora encendida")]
     [SerializeField] float rechargePerSecond = 1.5f;
@@ -44,12 +54,25 @@ public class Veladora : LightSource
         SetLit(startLit, playEffects: false);
     }
 
+    bool HasWind => windOnTime > 0f && windOffTime > 0f;
+
     void Update()
     {
+        float warning = 1f;
+        if (HasWind)
+        {
+            // Ciclo de viento: encendida windOnTime segundos, apagada windOffTime segundos
+            float cycle = windOnTime + windOffTime;
+            float t = Mathf.Repeat(Time.time + windPhaseOffset, cycle);
+            bool shouldBeLit = t < windOnTime;
+            if (shouldBeLit != isLit) SetLit(shouldBeLit, playEffects: shouldBeLit);
+            if (shouldBeLit && t > windOnTime - windWarningTime) warning = 4f;
+        }
+
         if (isLit)
         {
             if (light2D != null)
-                light2D.pointLightOuterRadius = litRadius + Mathf.Sin((Time.time + flickerOffset) * flickerSpeed) * flickerAmount;
+                light2D.pointLightOuterRadius = litRadius + Mathf.Sin((Time.time + flickerOffset) * flickerSpeed * warning) * flickerAmount * warning;
 
             // Zona segura: junto a la veladora, el fuego de Xólotl se recupera
             if (xolotl != null && rechargePerSecond > 0f &&
@@ -59,7 +82,8 @@ public class Veladora : LightSource
         }
 
         // Apagada: la llamarada de Xólotl la enciende si la veladora queda dentro de su radio
-        if (xolotl != null && xolotl.IsFlaring)
+        // (las veladoras con viento siguen su propio ciclo)
+        if (!HasWind && xolotl != null && xolotl.IsFlaring)
         {
             float dist = Vector2.Distance(xolotl.transform.position, transform.position);
             if (dist <= xolotl.Radius) SetLit(true, playEffects: true);
