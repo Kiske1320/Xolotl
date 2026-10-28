@@ -353,7 +353,17 @@ public static class GeneradorEscenarios
             }
             x += p.w + separacion;
         }
-        Rellenar(tex, 0, suelo, ancho, alto - suelo, new Color32(20, 20, 30, 255));
+        // Silueta: gris de poco contraste para que el tinte azul la deje al fondo sin competir con el juego.
+        var px = tex.GetPixels32();
+        for (int i = 0; i < px.Length; i++)
+        {
+            if (px[i].a == 0) continue;
+            float lum = (0.3f * px[i].r + 0.59f * px[i].g + 0.11f * px[i].b) / 255f;
+            byte v = (byte)(255f * (0.3f + 0.25f * lum));
+            px[i] = new Color32(v, v, v, 255);
+        }
+        tex.SetPixels32(px);
+        Rellenar(tex, 0, suelo, ancho, alto - suelo, new Color32(70, 70, 70, 255));
         return tex;
     }
 
