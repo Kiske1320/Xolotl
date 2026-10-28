@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Xolotl/Scenes/02_Calles.unity
     guid: 70a2f274358ba6143be479a3476a8780
+  - enabled: 1
+    path: Assets/_Xolotl/Scenes/03_Iglesia.unity
+    guid: ea7afc962f3755c48ad78673cf9d76de
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
