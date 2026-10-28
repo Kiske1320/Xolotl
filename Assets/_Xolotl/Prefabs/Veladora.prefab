@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: bdb3d143a899cc7c000000008c085472
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -353,6 +353,11 @@ MonoBehaviour:
   litRadius: 2.5
   flameRenderer: {fileID: 8191216114838817369}
   respawnPoint: {fileID: 0}
+  windOnTime: 0
+  windOffTime: 0
+  windPhaseOffset: 0
+  windWarningTime: 0.7
+  rechargePerSecond: 1.5
   flickerAmount: 0.12
   flickerSpeed: 7
   igniteFx: {fileID: 0}
