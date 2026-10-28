@@ -79,6 +79,8 @@ public class XolotlController : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0f, groundLayers);
 
         if (knockbackTimer > 0f) knockbackTimer -= Time.deltaTime;
@@ -109,10 +111,6 @@ public class XolotlController : MonoBehaviour
         // Salto variable: soltar el botón corta el salto
         if (jumpAction.action.WasReleasedThisFrame() && rb.linearVelocity.y > 0f)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
-
-        // TEMPORAL: diagnóstico de la llamarada, borrar después
-        if (flareAction.action.WasPressedThisFrame())
-            Debug.Log($"[Flare] Botón presionado ({flareAction.action.activeControl?.path}). xolotlLight asignado: {xolotlLight != null}");
 
         if (flareAction.action.WasPressedThisFrame() && xolotlLight != null && xolotlLight.TryFlare())
         {

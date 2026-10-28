@@ -11,7 +11,7 @@
 - Scripts en `Assets/_Xolotl/Scripts`. Una clase por archivo, mismo nombre que la clase.
 - Comentarios y textos del juego en español.
 - Pixel art: 16 Pixels Per Unit, Filter Mode Point, Compression None. Nunca escalar sprites en el Transform.
-- Input: `InputActionReference` (acciones Move, Jump y Flare de InputSystem_Actions). No usar PlayerInput con Send Messages.
+- Input: `InputActionReference` (acciones Move, Jump, Flare y Pause de InputSystem_Actions). No usar PlayerInput con Send Messages.
 - Unity 6: usar `rb.linearVelocity`, no `rb.velocity`.
 - Todas las luces de juego heredan de `LightSource` y se consultan con `LightRegistry.IsLit(punto)`.
 - Layers: Player, Enemy, Ground, Spectral. Player vs Enemy desactivado en la matriz de colisión; el daño va por triggers.
@@ -28,9 +28,6 @@ Referencias a objetos de escena (target de CameraFollow, GameManager, PuntoA/B d
 ## Escenas
 Build: 00_Titulo, 01_Panteon, 02_Calles, 03_Iglesia, 04_Ofrenda. 00_Prueba es solo de pruebas y no va en el build. Plataforma activa: Web.
 
-## Pendiente de limpieza antes de entregar
-- Borrar el Debug.Log temporal de la llamarada en XolotlController.
-
 ## Reglas de diseño ya decididas
 - Olvidados: se congelan bajo cualquier luz, pero tocarlos sigue quitando luz; la llamarada los empuja. Sin collider: daño por distancia (Player vs Enemy está desactivado en la matriz, y eso también bloquea triggers).
 - Puentes de papel picado: la luz normal de Xólotl no basta; necesitan vela de vecino, veladora o llamarada. Siguen sólidos 0.8 s al perder la luz.
@@ -40,9 +37,7 @@ Build: 00_Titulo, 01_Panteon, 02_Calles, 03_Iglesia, 04_Ofrenda. 00_Prueba es so
 - drainPerSecond = 0.2. Salto: ~2.8 de alto y ~5 de largo; obstáculos ≤ 2 de alto y huecos ≤ 4 (los huecos de 6 llevan PapelPicado).
 
 ## Pendientes en orden
-1. Nivel 3 en gris con la persecución (PASO7).
-2. Pausa, título y escena final (PASO8).
-3. Arte, audio, pulido, build Web.
+1. Arte, audio, pulido, build Web.
 
 ## Reglas para la IA
 - Primero `unity status` para revisar si hay un Editor conectado; si lo hay, modifica escenas con comandos del Editor. Nunca edites a mano el YAML de `.unity`, `.prefab` o `.asset`.
