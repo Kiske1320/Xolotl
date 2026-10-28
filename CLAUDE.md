@@ -19,14 +19,14 @@
 ## Scripts existentes
 LightRegistry, LightSource, XolotlLight, XolotlController, Petal, Veladora, GameManager,
 OlvidadoController, SpectralPlatform, HumanoConVela, CameraFollow, FallZone,
-ScreenFader, LevelExit, MemoryPhoto, UIManager.
+ScreenFader, LevelExit, MemoryPhoto, UIManager, ChaseWall, PauseMenu, TitleMenu, FinalScene.
 
 ## Prefabs (Assets/_Xolotl/Prefabs)
 Xolotl, MainCamera, GameManager, UI_Canvas, Veladora, Petal, Olvidado, Vecino, PapelPicado, MemoryPhoto.
 Referencias a objetos de escena (target de CameraFollow, GameManager, PuntoA/B del vecino) se conectan en cada escena.
 
 ## Escenas
-00_Prueba (pruebas, no va en el build), 01_Panteon, 02_Calles. Plataforma activa: Web.
+Build: 00_Titulo, 01_Panteon, 02_Calles, 03_Iglesia, 04_Ofrenda. 00_Prueba es solo de pruebas y no va en el build. Plataforma activa: Web.
 
 ## Pendiente de limpieza antes de entregar
 - Borrar el Debug.Log temporal de la llamarada en XolotlController.
@@ -40,8 +40,8 @@ Referencias a objetos de escena (target de CameraFollow, GameManager, PuntoA/B d
 - drainPerSecond = 0.2. Salto: ~2.8 de alto y ~5 de largo; obstáculos ≤ 2 de alto y huecos ≤ 4 (los huecos de 6 llevan PapelPicado).
 
 ## Pendientes en orden
-1. Niveles 2 y 3 en gris (02_Calles, 03_Iglesia).
-2. Pausa, título, FinalScene (texto según fotos).
+1. Nivel 3 en gris con la persecución (PASO7).
+2. Pausa, título y escena final (PASO8).
 3. Arte, audio, pulido, build Web.
 
 ## Reglas para la IA
