@@ -28,6 +28,31 @@ public class CameraFollow : MonoBehaviour
 
     float velocityX, velocityY;
     float targetY;
+    float defaultMinY, defaultMaxY;
+    Object currentZone;
+
+    void Awake()
+    {
+        defaultMinY = minY;
+        defaultMaxY = maxY;
+    }
+
+    /// <summary>La llama una CameraZone al entrar Xólotl: límites verticales solo para esa zona.</summary>
+    public void SetVerticalBounds(Object zone, float zoneMinY, float zoneMaxY)
+    {
+        currentZone = zone;
+        minY = zoneMinY;
+        maxY = zoneMaxY;
+    }
+
+    /// <summary>La llama una CameraZone al salir Xólotl: regresa a los límites normales del nivel.</summary>
+    public void ClearVerticalBounds(Object zone)
+    {
+        if (currentZone != zone) return;
+        currentZone = null;
+        minY = defaultMinY;
+        maxY = defaultMaxY;
+    }
 
     void Start()
     {
