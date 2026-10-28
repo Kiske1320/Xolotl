@@ -42,9 +42,7 @@ Build: 00_Titulo, 01_Panteon, 02_Calles, 03_Iglesia, 04_Ofrenda. 00_Prueba es so
 - drainPerSecond = 0.2. Salto: ~2.8 de alto y ~5 de largo; obstáculos ≤ 2 de alto y huecos ≤ 4 (los huecos de 6 llevan PapelPicado).
 
 ## Pendientes en orden
-1. Nivel 3 en gris con la persecución (PASO7).
-2. Pausa, título y escena final (PASO8).
-3. Arte, audio, pulido, build Web.
+1. Arte, audio, pulido, build Web.
 
 ## Reglas para la IA
 - Primero `unity status` para revisar si hay un Editor conectado; si lo hay, modifica escenas con comandos del Editor. Nunca edites a mano el YAML de `.unity`, `.prefab` o `.asset`.
