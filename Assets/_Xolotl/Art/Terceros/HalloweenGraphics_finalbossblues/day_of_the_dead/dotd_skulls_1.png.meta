@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,221 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dotd_skulls_1_0
+      name: Calavera_0
       rect:
         serializedVersion: 2
         x: 16
-        y: 31
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fce517554d2e7b850800000000000000
-      internalID: 6392827597670145743
+      spriteID: 6eff3065a653405418eee2dcebe148d3
+      internalID: -22622513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_1
+      name: Calavera_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 31
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dba9384dde3f2f380800000000000000
-      internalID: -8938814107578819907
+      spriteID: 4a59dcc2778aeee41b70e3685e9b247b
+      internalID: -461405541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_2
+      name: Calavera_2
       rect:
         serializedVersion: 2
         x: 48
-        y: 31
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 35fb79bc720e2cce0800000000000000
-      internalID: -1386299273752625325
+      spriteID: 9da4da3aafc1c5d428ad684a49f879c8
+      internalID: -424787799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_3
+      name: Calavera_3
       rect:
         serializedVersion: 2
         x: 64
-        y: 31
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f00910ec3b2cd5b80800000000000000
-      internalID: -8404347252092334065
+      spriteID: aa0258272e2410747a7b8fd75746297b
+      internalID: 1429412174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_4
+      name: Calavera_4
       rect:
         serializedVersion: 2
         x: 80
-        y: 31
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cef34849a0f4ea7d0800000000000000
-      internalID: -2905297802747428884
+      spriteID: f47a2976714bef94f839f0ca9d43c2e9
+      internalID: -1894151466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_5
+      name: Calavera_5
       rect:
         serializedVersion: 2
         x: 96
-        y: 31
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 805ef02df7b809840800000000000000
-      internalID: 5228832548478510344
+      spriteID: 0281c04d8cc69d14f9bd1473802b75af
+      internalID: 1207599203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_6
+      name: CalaveraSombrero_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 3
-        width: 25
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a9053c240fadecd0800000000000000
-      internalID: -2527171383428576860
+      spriteID: 221400b15a43a534ba25ceb1e9782917
+      internalID: 1261941702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_7
+      name: CalaveraSombrero_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 3
-        width: 25
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a02e491e4b71b8390800000000000000
-      internalID: -7815126662725180918
+      spriteID: 6e64d4cf28c898b4eb94e350b7bea256
+      internalID: 21117921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_8
+      name: CalaveraSombrero_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 2
-        width: 23
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 3
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1346aed120b446160800000000000000
-      internalID: 7017816591813993521
+      spriteID: 8c02e24e21833f540b6201cf7caf0ac2
+      internalID: 145842589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dotd_skulls_1_9
+      name: CalaveraSombrero_3
       rect:
         serializedVersion: 2
-        x: 101
-        y: 2
-        width: 23
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 3
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4a3b97f0ceb2f560800000000000000
-      internalID: 7346143678191843914
+      spriteID: aa654376df43a68439fc1e56fbf11379
+      internalID: 166626175
       vertices: []
       indices: 
       edges: []
@@ -363,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0d70191ad1c96244bbd311e7b88b4348
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dotd_skulls_1_0: 6392827597670145743
-      dotd_skulls_1_1: -8938814107578819907
-      dotd_skulls_1_2: -1386299273752625325
-      dotd_skulls_1_3: -8404347252092334065
-      dotd_skulls_1_4: -2905297802747428884
-      dotd_skulls_1_5: 5228832548478510344
-      dotd_skulls_1_6: -2527171383428576860
-      dotd_skulls_1_7: -7815126662725180918
-      dotd_skulls_1_8: 7017816591813993521
-      dotd_skulls_1_9: 7346143678191843914
+      CalaveraSombrero_0: 1261941702
+      CalaveraSombrero_1: 21117921
+      CalaveraSombrero_2: 145842589
+      CalaveraSombrero_3: 166626175
+      Calavera_0: -22622513
+      Calavera_1: -461405541
+      Calavera_2: -424787799
+      Calavera_3: 1429412174
+      Calavera_4: -1894151466
+      Calavera_5: 1207599203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
