@@ -1,0 +1,12 @@
+{
+  "success": false,
+  "command": "unity command script",
+  "data": null,
+  "errors": [
+    {
+      "code": "COMMAND_FAILED",
+      "message": "Bad Request\n  File not found: nivel_01_Panteon.cs"
+    }
+  ],
+  "warnings": []
+}

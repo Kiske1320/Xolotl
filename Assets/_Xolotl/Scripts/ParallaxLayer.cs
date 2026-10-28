@@ -14,17 +14,23 @@ public class ParallaxLayer : MonoBehaviour
 
     Vector3 startPosition;
     Vector3 cameraStart;
+    bool iniciado;
 
     void Start()
     {
         if (cameraTransform == null && Camera.main != null) cameraTransform = Camera.main.transform;
         startPosition = transform.position;
-        if (cameraTransform != null) cameraStart = cameraTransform.position;
     }
 
     void LateUpdate()
     {
         if (cameraTransform == null) return;
+        // Se toma la cámara en el primer LateUpdate: para entonces CameraFollow ya la colocó en su Start.
+        if (!iniciado)
+        {
+            cameraStart = cameraTransform.position;
+            iniciado = true;
+        }
         Vector3 delta = cameraTransform.position - cameraStart;
         transform.position = new Vector3(
             startPosition.x + delta.x * factorX,

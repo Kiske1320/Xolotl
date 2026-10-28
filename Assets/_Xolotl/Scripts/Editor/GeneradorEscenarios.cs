@@ -264,10 +264,14 @@ public static class GeneradorEscenarios
         var farol = Nueva(16, 48);
         Pegar(farol, Tile(anok, 13, 5), T, T, 0, 0);
         Pegar(farol, Tile(anok, 12, 6, 1, 2), T, 32, 0, 16);
-        string rutaFarol = Guardar(farol, "Farol_Apagado");
-        var ti = (TextureImporter)AssetImporter.GetAtPath(rutaFarol);
-        Configurar(ti, false);
-        ti.SaveAndReimport();
+        GuardarFondo(farol, "Farol_Apagado");
+
+        // Reja del panteón: tramo de 4 piezas de Segart (orilla, centro, centro, orilla).
+        var reja = Nueva(64, 16);
+        string[] partes = { "fenceL", "fenceM", "fenceM", "fenceR" };
+        for (int i = 0; i < partes.Length; i++)
+            Pegar(reja, Leer(Segart + partes[i] + ".png").GetPixels32(), T, T, i * T, 0);
+        GuardarFondo(reja, "Reja_Panteon");
     }
 
     // ---------- Fondos ----------
@@ -320,7 +324,7 @@ public static class GeneradorEscenarios
 
     static Texture2D Pueblo(Texture2D anok, string[] orden)
     {
-        int alto = 160 + 96, suelo = 160;
+        int alto = 160 + 192, suelo = 160;
         var piezas = new List<(Color32[] px, int w, int h)>();
         foreach (var o in orden)
         {
