@@ -50,6 +50,7 @@ public class OlvidadoController : MonoBehaviour
     float hitTimer;
     float bobTime;
     float alpha = 1f;
+    float baseAlpha = 1f;   // alpha del color del sprite fuera de la luz
     bool isFrozen;
     bool repelledThisFlare;
     bool pendingReset;
@@ -65,6 +66,7 @@ public class OlvidadoController : MonoBehaviour
             playerRb = xolotlLight.GetComponent<Rigidbody2D>();
         }
         if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (spriteRenderer != null) baseAlpha = alpha = spriteRenderer.color.a;
 
         startPosition = transform.position;
         basePosition = startPosition;
@@ -139,7 +141,7 @@ public class OlvidadoController : MonoBehaviour
     {
         if (spriteRenderer == null) return;
 
-        alpha = Mathf.MoveTowards(alpha, isFrozen ? frozenAlpha : 1f, alphaSpeed * dt);
+        alpha = Mathf.MoveTowards(alpha, isFrozen ? frozenAlpha : baseAlpha, alphaSpeed * dt);
         Color c = spriteRenderer.color;
         c.a = alpha;
         spriteRenderer.color = c;
