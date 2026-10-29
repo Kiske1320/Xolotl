@@ -24,9 +24,11 @@ ScreenFader, LevelExit, MemoryPhoto, UIManager, ChaseWall, PauseMenu, TitleMenu,
 SeguirVolteo (solo visual: el alma de Aurora copia el flipX del perro),
 AudioManager (efectos 2D: `AudioManager.Play(clip, vol)`), MusicManager (objeto "Musica" en cada escena),
 MusicPlayer (persistente, crossfade), UIButtonSound (click/hover en cada botón).
+CameraShake (en MainCamera: `CameraShake.Shake(fuerza, duración)`), SquashStretch (en Xolotl/Visual),
+ParticleBurst (ráfagas por id: `ParticleBurst.Play("petalo"|"llamarada"|"veladora"|"foto", pos)`).
 
 ## Prefabs (Assets/_Xolotl/Prefabs)
-Xolotl, MainCamera, GameManager, UI_Canvas, Veladora, Petal, Olvidado, Vecino, PapelPicado, MemoryPhoto.
+Xolotl, MainCamera, GameManager, UI_Canvas, Veladora, Petal, Olvidado, Vecino, PapelPicado, MemoryPhoto, VFX (en 01, 02 y 03).
 Referencias a objetos de escena (target de CameraFollow, GameManager, PuntoA/B del vecino) se conectan en cada escena.
 
 ## Escenas

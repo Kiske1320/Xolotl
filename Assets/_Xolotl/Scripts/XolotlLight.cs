@@ -37,6 +37,10 @@ public class XolotlLight : LightSource
     [SerializeField] float flickerAmount = 0.15f;
     [SerializeField] float flickerSpeed = 18f;
 
+    [Header("Brasas (opcional)")]
+    [Tooltip("ParticleSystem en loop; suelta menos brasas cuando queda poca luz")]
+    [SerializeField] ParticleSystem embers;
+
     public event Action OnLightEmpty;
     public event Action OnFlare;
     public event Action<float> OnLightChanged; // valor normalizado 0..1 para la UI
@@ -76,6 +80,12 @@ public class XolotlLight : LightSource
         }
 
         ApplyRadius();
+
+        if (embers != null)
+        {
+            var emission = embers.emission;
+            emission.rateOverTime = isEmpty ? 0f : 2f + 6f * LightNormalized;
+        }
     }
 
     void ApplyRadius()
@@ -141,6 +151,8 @@ public class XolotlLight : LightSource
         if (flareSfx != null)
             foreach (AudioClip clip in flareSfx) AudioManager.Play(clip, flareSfxVolume);
         AudioManager.Play(flareBarkSfx, flareBarkVolume, 0.05f, flareBarkPitch);
+        CameraShake.Shake(0.08f, 0.15f);
+        ParticleBurst.Play("llamarada", transform.position);
         return true;
     }
 

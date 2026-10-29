@@ -60,6 +60,7 @@ public class Petal : MonoBehaviour
         if (pickupFxPrefab != null)
             Instantiate(pickupFxPrefab, transform.position, Quaternion.identity);
         AudioManager.PlayRandom(pickupSfx, sfxVolume);
+        ParticleBurst.Play("petalo", transform.position);
 
         SetCollected(true);
     }

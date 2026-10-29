@@ -92,6 +92,7 @@ public class GameManager : MonoBehaviour
         isDefeated = true;
         xolotlController.SetControlsEnabled(false);
         AudioManager.Play(defeatSfx, defeatVolume);
+        CameraShake.Shake(0.25f, 0.35f);
 
         yield return new WaitForSeconds(defeatDelay);
         yield return Fade(0f, 1f);

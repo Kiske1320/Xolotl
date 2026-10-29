@@ -40,6 +40,7 @@ public class Veladora : LightSource
     [Range(0f, 1f)][SerializeField] float sfxVolume = 0.7f;
 
     bool isLit;
+    bool reachedOnce;
     float flickerOffset;
     XolotlLight xolotl;
 
@@ -91,6 +92,7 @@ public class Veladora : LightSource
             {
                 SetLit(true, playEffects: true);
                 AudioManager.Play(igniteSfx, sfxVolume);
+                PlaySparks();
             }
         }
     }
@@ -115,6 +117,16 @@ public class Veladora : LightSource
         if (other.attachedRigidbody.GetComponent<XolotlLight>() == null) return;
 
         if (GameManager.Instance != null && GameManager.Instance.SetCheckpoint(this))
+        {
             AudioManager.Play(checkpointSfx, sfxVolume);
+            if (!reachedOnce) PlaySparks();
+            reachedOnce = true;
+        }
+    }
+
+    void PlaySparks()
+    {
+        Vector3 pos = flameRenderer != null ? flameRenderer.transform.position : transform.position;
+        ParticleBurst.Play("veladora", pos);
     }
 }

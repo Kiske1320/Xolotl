@@ -78,6 +78,7 @@ public class MemoryPhoto : MonoBehaviour
         if (pickupFxPrefab != null)
             Instantiate(pickupFxPrefab, transform.position, Quaternion.identity);
         AudioManager.Play(pickupSfx, sfxVolume);
+        ParticleBurst.Play("foto", transform.position);
 
         OnPhotoCollected?.Invoke(TotalCollected);
         gameObject.SetActive(false);

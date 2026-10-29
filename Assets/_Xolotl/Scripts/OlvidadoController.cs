@@ -207,6 +207,7 @@ public class OlvidadoController : MonoBehaviour
 
         hitTimer = hitCooldown;
         xolotlLight.Drain(lightDamage);
+        CameraShake.Shake(0.15f, 0.2f);
 
         if (xolotlController != null)
         {

@@ -61,6 +61,7 @@ public class ChaseWall : MonoBehaviour
                 active = true;
                 delayTimer = startDelay;
                 if (loopAudio != null) loopAudio.Play();
+                CameraShake.Shake(0.12f, 0.5f);
             }
             return;
         }
