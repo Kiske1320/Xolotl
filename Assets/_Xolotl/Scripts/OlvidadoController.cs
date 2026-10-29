@@ -39,6 +39,19 @@ public class OlvidadoController : MonoBehaviour
     [Header("Audio (opcional)")]
     [SerializeField] AudioClip hitSfx;
     [Range(0f, 1f)][SerializeField] float sfxVolume = 0.7f;
+    [Tooltip("Gemidos al azar cuando Xólotl está cerca y el olvidado no está congelado")]
+    [SerializeField] AudioClip[] moanSfx;
+    [SerializeField] float moanRange = 8f;
+    [SerializeField] Vector2 moanInterval = new(4f, 8f);
+    [Tooltip("Volumen cerca (x) y al borde del rango (y)")]
+    [SerializeField] Vector2 moanVolume = new(0.5f, 0.1f);
+    [Tooltip("Gemido corto al ser empujado por la llamarada")]
+    [SerializeField] AudioClip repelSfx;
+    [Range(0f, 1f)][SerializeField] float repelSfxVolume = 0.5f;
+
+    // Nunca más de 2 gemidos a la vez en toda la escena: guarda cuándo termina cada uno
+    const int MaxMoans = 2;
+    static readonly float[] moanEndTimes = new float[MaxMoans];
 
     XolotlLight xolotlLight;
     XolotlController xolotlController;
@@ -54,6 +67,7 @@ public class OlvidadoController : MonoBehaviour
     bool isFrozen;
     bool repelledThisFlare;
     bool pendingReset;
+    float moanTimer;
 
     public bool IsFrozen => isFrozen;
 
@@ -71,6 +85,23 @@ public class OlvidadoController : MonoBehaviour
         startPosition = transform.position;
         basePosition = startPosition;
         bobTime = Random.Range(0f, 10f);
+        moanTimer = Random.Range(moanInterval.x, moanInterval.y);
+    }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    static void ResetMoans() => System.Array.Clear(moanEndTimes, 0, MaxMoans);
+
+    /// <summary>Reproduce el clip si hay espacio (máximo 2 gemidos a la vez).</summary>
+    static void TryPlayMoan(AudioClip clip, float volume)
+    {
+        if (clip == null) return;
+        for (int i = 0; i < MaxMoans; i++)
+        {
+            if (Time.unscaledTime < moanEndTimes[i]) continue;
+            moanEndTimes[i] = Time.unscaledTime + clip.length * 1.06f; // margen por la variación de tono
+            AudioManager.Play(clip, volume);
+            return;
+        }
     }
 
     void Update()
@@ -112,6 +143,7 @@ public class OlvidadoController : MonoBehaviour
                 repelledThisFlare = true;
                 repelVelocity = -toPlayer / distance * repelSpeed;
                 repelTimer = repelDuration;
+                TryPlayMoan(repelSfx, repelSfxVolume);
             }
         }
         else
@@ -134,7 +166,22 @@ public class OlvidadoController : MonoBehaviour
         transform.position = basePosition + Vector3.up * (Mathf.Sin(bobTime * bobSpeed) * bobAmplitude);
 
         UpdateVisual(toPlayer.x, dt);
+        UpdateMoan(distance, dt);
         TryHit(playerPos);
+    }
+
+    void UpdateMoan(float distance, float dt)
+    {
+        if (moanSfx == null || moanSfx.Length == 0) return;
+        if (distance > moanRange) return;
+
+        // El contador corre aunque esté congelado; el gemido espera a que salga de la luz
+        moanTimer -= dt;
+        if (moanTimer > 0f || isFrozen) return;
+        moanTimer = Random.Range(moanInterval.x, moanInterval.y);
+
+        float volume = Mathf.Lerp(moanVolume.x, moanVolume.y, distance / moanRange);
+        TryPlayMoan(moanSfx[Random.Range(0, moanSfx.Length)], volume);
     }
 
     void UpdateVisual(float directionX, float dt)

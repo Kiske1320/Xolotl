@@ -26,6 +26,11 @@ public class XolotlLight : LightSource
     [Tooltip("Suenan todos a la vez (aullido y fuego)")]
     [SerializeField] AudioClip[] flareSfx;
     [Range(0f, 1f)][SerializeField] float flareSfxVolume = 0.8f;
+    [Tooltip("Ladrido de la llamarada; solo suena si la llamarada sí se lanza")]
+    [SerializeField] AudioClip flareBarkSfx;
+    [Range(0f, 1f)][SerializeField] float flareBarkVolume = 0.8f;
+    [Tooltip("Tono base del ladrido (menor a 1 = perro grande)")]
+    [SerializeField] float flareBarkPitch = 0.9f;
 
     [Header("Parpadeo con poca luz")]
     [SerializeField] float lowLightThreshold = 1.5f;
@@ -135,6 +140,7 @@ public class XolotlLight : LightSource
         OnFlare?.Invoke();
         if (flareSfx != null)
             foreach (AudioClip clip in flareSfx) AudioManager.Play(clip, flareSfxVolume);
+        AudioManager.Play(flareBarkSfx, flareBarkVolume, 0.05f, flareBarkPitch);
         return true;
     }
 

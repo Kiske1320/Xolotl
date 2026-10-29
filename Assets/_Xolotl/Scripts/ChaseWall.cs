@@ -23,6 +23,10 @@ public class ChaseWall : MonoBehaviour
 
     [Header("Efectos (opcionales)")]
     [SerializeField] AudioSource loopAudio;
+    [Tooltip("Gemidos al azar mientras la marea está activa")]
+    [SerializeField] AudioClip[] moanSfx;
+    [Range(0f, 1f)][SerializeField] float moanVolume = 0.6f;
+    [SerializeField] Vector2 moanInterval = new(1.5f, 3f);
     [SerializeField] float wobbleAmplitude = 0.2f;
     [SerializeField] float wobbleSpeed = 3f;
 
@@ -30,6 +34,7 @@ public class ChaseWall : MonoBehaviour
     Vector3 startPosition;
     float baseX;
     float delayTimer;
+    float moanTimer;
     bool active;
 
     public bool IsActive => active;
@@ -62,6 +67,13 @@ public class ChaseWall : MonoBehaviour
 
         if (xolotlLight.IsEmpty) return;
 
+        moanTimer -= Time.deltaTime;
+        if (moanTimer <= 0f)
+        {
+            moanTimer = Random.Range(moanInterval.x, moanInterval.y);
+            AudioManager.PlayRandom(moanSfx, moanVolume);
+        }
+
         if (delayTimer > 0f)
         {
             delayTimer -= Time.deltaTime;
@@ -85,6 +97,7 @@ public class ChaseWall : MonoBehaviour
     void ResetWall()
     {
         active = false;
+        moanTimer = 0f;
         baseX = startPosition.x;
         transform.position = startPosition;
         if (loopAudio != null) loopAudio.Stop();

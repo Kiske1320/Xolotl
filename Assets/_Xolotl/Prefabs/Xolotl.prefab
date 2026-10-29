@@ -269,6 +269,9 @@ MonoBehaviour:
   flareExpandSpeed: 40
   flareSfx: []
   flareSfxVolume: 0.8
+  flareBarkSfx: {fileID: 8300000, guid: a749ac492843fe649badd2a07993cebc, type: 3}
+  flareBarkVolume: 0.8
+  flareBarkPitch: 0.9
   lowLightThreshold: 1.5
   flickerAmount: 0.15
   flickerSpeed: 18

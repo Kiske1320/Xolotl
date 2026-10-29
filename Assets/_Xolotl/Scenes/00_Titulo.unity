@@ -218,7 +218,8 @@ MonoBehaviour:
     (Pixel Dogs) \xB7 Camacebra Games (esqueleto) \xB7 Anokolisa (Classic NES Legacy
     Pack - Village) \xB7 Segart (2D 16px Graveyard Tileset) \xB7 finalbossblues (fantasma
     y calaveras) \xB7 CCCreations y Tonbi\nEfectos de sonido: Kenney (kenney.nl,
-    CC0) \xB7 Fuente: Pixelify Sans (SIL Open Font License)</size>"
+    CC0) \xB7 Voces de los olvidados: qubodup (OpenGameArt, CC0) \xB7 Ladrido: OpenGameArt
+    (CC0) \xB7 Fuente: Pixelify Sans (SIL Open Font License)</size>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 288e340d6f54b0949860c050f4990545, type: 2}
   m_sharedMaterial: {fileID: -1284280406005249478, guid: 288e340d6f54b0949860c050f4990545, type: 2}

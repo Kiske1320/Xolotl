@@ -640,6 +640,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Banca
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1acd3d9f5bb9964f80def76dcde3af6
+      internalID: 1703520629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -655,6 +677,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Altar_Mesa: -1426579744
+      Banca: 1703520629
       Barrotes: -1032060158
       Candelabro: -1320626067
       Columna: -527022434

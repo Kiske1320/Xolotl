@@ -124,6 +124,16 @@ MonoBehaviour:
   spriteFacesLeft: 0
   hitSfx: {fileID: 8300000, guid: 8eb7f6e4e8d6ae04cabac11d9fb721a9, type: 3}
   sfxVolume: 0.7
+  moanSfx:
+  - {fileID: 8300000, guid: db64517ad8e03ec46ac107f604da089c, type: 3}
+  - {fileID: 8300000, guid: 92b3c1ffe1fb13f428e05e23851b7087, type: 3}
+  - {fileID: 8300000, guid: c0856f7405ba9f8479ab4b1fd775dbe5, type: 3}
+  - {fileID: 8300000, guid: 2968495f82a30584a9cffd9c66c8b7d9, type: 3}
+  moanRange: 8
+  moanInterval: {x: 4, y: 8}
+  moanVolume: {x: 0.5, y: 0.1}
+  repelSfx: {fileID: 8300000, guid: e077f54c2fbe2c84e9148752610f7d27, type: 3}
+  repelSfxVolume: 0.5
 --- !u!95 &7103769316816954255
 Animator:
   serializedVersion: 7
