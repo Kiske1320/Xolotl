@@ -238,7 +238,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -252,7 +252,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -276,7 +276,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -314,1497 +314,1497 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dogs-Remastered-10_0
+      name: Xolo_0_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 383
-        width: 49
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c58f6ada4cb889a0800000000000000
-      internalID: -6230523054788737594
+      spriteID: 09c3f8ab2e9566c42b350f7a791a849b
+      internalID: 1583818703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_1
+      name: Xolo_0_1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 383
-        width: 52
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 18a1b726d9360e920800000000000000
-      internalID: 3017521277951482497
+      spriteID: 2348c4a103180fc4aadf34f9972ee6e5
+      internalID: -717593215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_2
+      name: Xolo_0_2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 383
-        width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e36f6e0933f734a50800000000000000
-      internalID: 6504182146304243262
+      spriteID: 13991fdcb15cc7b478915c163c3ff8e6
+      internalID: -1875015594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_3
+      name: Xolo_0_3
       rect:
         serializedVersion: 2
-        x: 199
-        y: 383
-        width: 52
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 111efc0787bdb7880800000000000000
-      internalID: -8612048552080711407
+      spriteID: 1299ce63c86ab57478331d574dab5961
+      internalID: 1200187382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_4
+      name: Xolo_0_4
       rect:
         serializedVersion: 2
-        x: 263
-        y: 383
-        width: 46
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbba1375f2210f7a0800000000000000
-      internalID: -6345551880429392963
+      spriteID: 5d1ec036592ebc844a27dfcce4a89dd3
+      internalID: -1527690146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_5
+      name: Xolo_0_5
       rect:
         serializedVersion: 2
-        x: 327
-        y: 383
-        width: 52
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25e7d445413914860800000000000000
-      internalID: 7512447368953691730
+      spriteID: 073f18bbc718b0b46b9bd094b9e98f5f
+      internalID: 1041121401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_6
+      name: Xolo_0_6
       rect:
         serializedVersion: 2
-        x: 392
-        y: 383
-        width: 45
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3d89432d8761f7c60800000000000000
-      internalID: 7817992186317019347
+      spriteID: 465d6528b451ad243ae73fafcaff76c4
+      internalID: -889160292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_7
+      name: Xolo_0_7
       rect:
         serializedVersion: 2
-        x: 457
-        y: 383
-        width: 50
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 384
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5d1101fcf4815550800000000000000
-      internalID: 6147841188247444826
+      spriteID: 2de64ddcb9de01445886eed385181ae7
+      internalID: -1844599232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_8
+      name: Xolo_1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 335
-        width: 42
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7757b120a51a6830800000000000000
-      internalID: 4065085391159908219
+      spriteID: 143c64a04fa32664888887571b4fe02b
+      internalID: -1108992968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_9
+      name: Xolo_1_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 335
-        width: 44
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: facf3f5d7af7df720800000000000000
-      internalID: 2881599695412788399
+      spriteID: 28bcea01f4f92e64695e0d14b53f21f1
+      internalID: 55773120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_10
+      name: Xolo_1_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 335
-        width: 47
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 950e0127b9189d800800000000000000
-      internalID: 637683326883258457
+      spriteID: c926d3993198bbe4787cb088b710961d
+      internalID: -1629563617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_11
+      name: Xolo_1_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 335
-        width: 43
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72a70f9e01b5bc000800000000000000
-      internalID: 57239548474718759
+      spriteID: f75f9d54d8aa0c54e85feee0e2ebf0cb
+      internalID: 1126240486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_12
+      name: Xolo_1_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 335
-        width: 37
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2451db38f7d9f7ff0800000000000000
-      internalID: -36137100999060158
+      spriteID: 5fa0e40212136b94f8c4925e6dd30812
+      internalID: -2080774203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_13
+      name: Xolo_1_5
       rect:
         serializedVersion: 2
-        x: 329
-        y: 335
-        width: 44
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46dc562d898860dc0800000000000000
-      internalID: -3673098256127767196
+      spriteID: b7833bbef45f8a541952beb3c85a72b3
+      internalID: 132618785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_14
+      name: Xolo_1_6
       rect:
         serializedVersion: 2
-        x: 395
-        y: 335
-        width: 42
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4dccf25fc35e87320800000000000000
-      internalID: 2556044838507105492
+      spriteID: c62831735aa0ec0428a440e4db632971
+      internalID: -523997850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_15
+      name: Xolo_1_7
       rect:
         serializedVersion: 2
-        x: 458
-        y: 335
-        width: 46
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 336
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2da84225156549a0800000000000000
-      internalID: -6249477766462788307
+      spriteID: 9767bc1094c2a2f4c83fd77d816d831f
+      internalID: 1062764712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_16
+      name: Xolo_2_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 287
-        width: 49
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a2170fc79e9c0bd0800000000000000
-      internalID: -2662578904832208221
+      spriteID: 9db930b1e51a1e2439d959583696c73b
+      internalID: 1325858815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_17
+      name: Xolo_2_1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 287
-        width: 53
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77bd20a9e7063ce00800000000000000
-      internalID: 1063800033855593335
+      spriteID: 248b89ef3d454684097411f1a6935fff
+      internalID: -899081909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_18
+      name: Xolo_2_2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 287
-        width: 56
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 090d65225cbbe7a80800000000000000
-      internalID: -8467123794050887536
+      spriteID: d2a4e4c0e46877249bc24908be8fcf7b
+      internalID: -1837739887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_19
+      name: Xolo_2_3
       rect:
         serializedVersion: 2
-        x: 199
-        y: 287
-        width: 52
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e311318e7db683950800000000000000
-      internalID: 6429007043127087422
+      spriteID: fb46cf7b94941244d9f74dd695bd4fab
+      internalID: 1724217146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_20
+      name: Xolo_2_4
       rect:
         serializedVersion: 2
-        x: 263
-        y: 287
-        width: 46
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b654754aa157e7910800000000000000
-      internalID: 1837034455300523371
+      spriteID: bfd19a99ebb7b32429d9afc8e344cf36
+      internalID: -87179603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_21
+      name: Xolo_2_5
       rect:
         serializedVersion: 2
-        x: 327
-        y: 287
-        width: 53
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b94f80bc6c0d4d2e0800000000000000
-      internalID: -2101825573846715237
+      spriteID: 55109ff25411c2145827ac41565b954c
+      internalID: -725175064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_22
+      name: Xolo_2_6
       rect:
         serializedVersion: 2
-        x: 394
-        y: 287
-        width: 50
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d8fc46db2a3ea6820800000000000000
-      internalID: 2912390397150154637
+      spriteID: ad272f3487d64d14080e6f496483f43f
+      internalID: 377541436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_23
+      name: Xolo_2_7
       rect:
         serializedVersion: 2
-        x: 458
-        y: 287
-        width: 53
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 288
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4cf1dcf9f624dc6a0800000000000000
-      internalID: -6427408045998006332
+      spriteID: c5041c1c157530f4aa41a9d1594e1162
+      internalID: 1534400834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_24
+      name: Xolo_3_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 239
-        width: 52
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4c4fb30553da8940800000000000000
-      internalID: 5299280273643359311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dogs-Remastered-10_25
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 239
-        width: 59
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 402e0044ece9397d0800000000000000
-      internalID: -2912809925237218812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dogs-Remastered-10_26
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 239
-        width: 55
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26ee17fae23b4ee10800000000000000
-      internalID: 2226101128921214562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dogs-Remastered-10_27
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 239
-        width: 52
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a628e8e209b79e4b0800000000000000
-      internalID: -5410657618122341782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dogs-Remastered-10_28
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 239
-        width: 55
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 368a90dcb4f933f40800000000000000
-      internalID: 5707080300719876195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dogs-Remastered-10_29
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 239
-        width: 54
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f5a54052794f4110800000000000000
-      internalID: 1247296377126757874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dogs-Remastered-10_30
-      rect:
-        serializedVersion: 2
-        x: 390
+        x: 0
         y: 240
-        width: 54
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bfb7c770309e1cb70800000000000000
-      internalID: 8917664936390065147
+      spriteID: 1f3b0e26108e19647ae9e3d4134adfee
+      internalID: -395807842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_31
+      name: Xolo_3_1
       rect:
         serializedVersion: 2
-        x: 452
-        y: 239
-        width: 54
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0bf2aa1654c85c40800000000000000
-      internalID: 5501362818926181131
+      spriteID: dfe1040ce1ce9954282669f44620fd52
+      internalID: -2132218591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_32
+      name: Xolo_3_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 191
-        width: 52
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 67f63b3fca7cbb760800000000000000
-      internalID: 7474787552188395382
+      spriteID: fc5fb540e1d2eb04a838ae252277f218
+      internalID: 1812679029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_33
+      name: Xolo_3_3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 191
-        width: 56
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df537696aa3e697a0800000000000000
-      internalID: -6370654301816670723
+      spriteID: 59062b42e0d2dfd4ebee49f8c3527e2e
+      internalID: -1968964235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_34
+      name: Xolo_3_4
       rect:
         serializedVersion: 2
-        x: 135
-        y: 191
-        width: 50
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0176c8b2d3eee9ce0800000000000000
-      internalID: -1396416887947237616
+      spriteID: dd64b9dfb552b4b49a57b0d9b5da0054
+      internalID: 1383407724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_35
+      name: Xolo_3_5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 191
-        width: 55
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fe933822277a1c460800000000000000
-      internalID: 7260268182945085935
+      spriteID: 260835d3bb988cd49bb51de571a30aa5
+      internalID: -1939436813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_36
+      name: Xolo_3_6
       rect:
         serializedVersion: 2
-        x: 263
-        y: 191
-        width: 47
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a509fda630966ea0800000000000000
-      internalID: -5879853698964191840
+      spriteID: 48dc78dc6a4ad5243978881fb39ab207
+      internalID: 1433503646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_37
+      name: Xolo_3_7
       rect:
         serializedVersion: 2
-        x: 326
-        y: 191
-        width: 50
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 240
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 132faa0e6ecf78680800000000000000
-      internalID: -8752749282229292495
+      spriteID: 64d0a64015aa7d04babb500fad788fd1
+      internalID: 1716847298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_38
+      name: Xolo_4_0
       rect:
         serializedVersion: 2
-        x: 390
-        y: 191
-        width: 54
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a2aada1b92096b70800000000000000
-      internalID: 8892641804413477537
+      spriteID: 4a9c06d65264d8c4eada5987769bb254
+      internalID: -1519995504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_39
+      name: Xolo_4_1
       rect:
         serializedVersion: 2
-        x: 455
-        y: 191
-        width: 49
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: da9853c477e8f7bf0800000000000000
-      internalID: -324384005116556883
+      spriteID: d330cc39e69db824583d1959a76a4155
+      internalID: 1205555788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_40
+      name: Xolo_4_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 143
-        width: 50
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52db03821e3ecec50800000000000000
-      internalID: 6695977302174514469
+      spriteID: b699533bedb541342bf97b2444a4c1be
+      internalID: 449982407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_41
+      name: Xolo_4_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 143
-        width: 56
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bbcbe982c464fda20800000000000000
-      internalID: 3089265162312400059
+      spriteID: bf3f227a023e63c4eba858c3cbb462a2
+      internalID: 153299701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_42
+      name: Xolo_4_4
       rect:
         serializedVersion: 2
-        x: 134
-        y: 143
-        width: 55
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce5d858043c9a6470800000000000000
-      internalID: 8388689003223242220
+      spriteID: 68ed1a8fae5b7fa4dacc664ea89ab6ca
+      internalID: -146558161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_43
+      name: Xolo_4_5
       rect:
         serializedVersion: 2
-        x: 198
-        y: 143
-        width: 52
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a259f56f65e73a520800000000000000
-      internalID: 2712150312572917034
+      spriteID: e7b5b022304af2e46a57bfb891f77e73
+      internalID: -1881070910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_44
+      name: Xolo_4_6
       rect:
         serializedVersion: 2
-        x: 262
-        y: 143
-        width: 55
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 088740de44dce1ba0800000000000000
-      internalID: -6116225548004591488
+      spriteID: 6e66d93f15dda2e4db02f110b2b148fb
+      internalID: -494301603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_45
+      name: Xolo_4_7
       rect:
         serializedVersion: 2
-        x: 328
-        y: 143
-        width: 52
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 192
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c383c4ca0190bd9a0800000000000000
-      internalID: -6207357694185293764
+      spriteID: cf07a9804f082494eb5a574343543a3a
+      internalID: 605281818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_46
+      name: Xolo_5_0
       rect:
         serializedVersion: 2
-        x: 393
+        x: 0
         y: 144
-        width: 51
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 934ab2dd48f9968f0800000000000000
-      internalID: -546730486753680327
+      spriteID: 46007875eee8ff541901d16779f8e565
+      internalID: 548136400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_47
+      name: Xolo_5_1
       rect:
         serializedVersion: 2
-        x: 452
-        y: 143
-        width: 54
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f333a0e96d03cd70800000000000000
-      internalID: 9062101623591089144
+      spriteID: b66866928f7adf14fbb9cb75d2621b23
+      internalID: 197545257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_48
+      name: Xolo_5_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 95
-        width: 52
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7454d595032cb5350800000000000000
-      internalID: 6006608040942191943
+      spriteID: 7697fe920e1d81d43abd98ec2100b9b6
+      internalID: 375399582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_49
+      name: Xolo_5_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 95
-        width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f73ca3d6321272d0800000000000000
-      internalID: -3282541151710857224
+      spriteID: 5bdfdda43bef85745993a645f873572e
+      internalID: -923244724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_50
+      name: Xolo_5_4
       rect:
         serializedVersion: 2
-        x: 135
-        y: 95
-        width: 50
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5394022657108b20800000000000000
-      internalID: 3134530999355216730
+      spriteID: 1360c0376ffda444996c3db009a12978
+      internalID: 656733966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_51
+      name: Xolo_5_5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 95
-        width: 55
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7dfbd7af25ecf84f0800000000000000
-      internalID: -824213351000326185
+      spriteID: db7213047fd2fdf49a056a8145c7d904
+      internalID: 1997510247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_52
+      name: Xolo_5_6
       rect:
         serializedVersion: 2
-        x: 263
-        y: 95
-        width: 47
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99e0360dd881260b0800000000000000
-      internalID: -5736995977950982503
+      spriteID: 85562a2dc485cec488bd667f7d22fe0d
+      internalID: 784498923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_53
+      name: Xolo_5_7
       rect:
         serializedVersion: 2
-        x: 327
-        y: 95
-        width: 49
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 144
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d1e5b82fd939b600800000000000000
-      internalID: 484482065542537686
+      spriteID: 80aa962e27001e74eb422f8e927a06be
+      internalID: -1544038187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_54
+      name: Xolo_6_0
       rect:
         serializedVersion: 2
-        x: 391
-        y: 95
-        width: 53
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2e4077d60dbdbf90800000000000000
-      internalID: -6936180013998780882
+      spriteID: 5cf78aea1817480489ecdd4ebcf4ea4d
+      internalID: -1513705101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_55
+      name: Xolo_6_1
       rect:
         serializedVersion: 2
-        x: 455
-        y: 95
-        width: 49
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5ef5e367d99ba17f0800000000000000
-      internalID: -640995911002071067
+      spriteID: cb894009e3692834b8e2ad187e97ed3e
+      internalID: -468252950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_56
+      name: Xolo_6_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 47
-        width: 25
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58a2051c01ce8c960800000000000000
-      internalID: 7622601926031452805
+      spriteID: 9b8fac79e585f394e896d9a0e560faac
+      internalID: -1175030941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_57
+      name: Xolo_6_3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 47
-        width: 29
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d4c8f91eb6bca50f0800000000000000
-      internalID: -1127365092495618995
+      spriteID: efb89f79960aa334f9c24914fd09ee10
+      internalID: 471581555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_58
+      name: Xolo_6_4
       rect:
         serializedVersion: 2
-        x: 151
-        y: 47
-        width: 30
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ee8fdf1bac836040800000000000000
-      internalID: 4639706707723783910
+      spriteID: 3234951cd569c834fac6445d0596fa39
+      internalID: -126202359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_59
+      name: Xolo_6_5
       rect:
         serializedVersion: 2
-        x: 215
-        y: 47
-        width: 28
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 691fda45c81fe6240800000000000000
-      internalID: 4787029038959817110
+      spriteID: 174146e07e7ecd847a52bbe25cbc3254
+      internalID: 1470915700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_60
+      name: Xolo_6_6
       rect:
         serializedVersion: 2
-        x: 279
-        y: 47
-        width: 22
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b664dad660f4bfaf0800000000000000
-      internalID: -361608456044722581
+      spriteID: 8cd7dc2743e496748b912305a0cb4bc0
+      internalID: -293762610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_61
+      name: Xolo_6_7
       rect:
         serializedVersion: 2
-        x: 343
-        y: 47
-        width: 29
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 96
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1c19c2ab9aa51420800000000000000
-      internalID: 2600171945304071195
+      spriteID: b71d36a83a63d8348a5509a0040a7b22
+      internalID: 1322302644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_62
+      name: Xolo_7_0
       rect:
         serializedVersion: 2
-        x: 407
-        y: 47
-        width: 28
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34e1262f72aafeb20800000000000000
-      internalID: 3165936151611711043
+      spriteID: 63874d39fb8c2724faf73505209aaaa4
+      internalID: 1581274808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_63
+      name: Xolo_7_1
       rect:
         serializedVersion: 2
-        x: 471
-        y: 47
-        width: 30
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a898b38d05110bb90800000000000000
-      internalID: -7228258363006809718
+      spriteID: 375d98d4013cd4b4a9ab79b2c90fece4
+      internalID: 1804909713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_64
+      name: Xolo_7_2
       rect:
         serializedVersion: 2
-        x: 15
+        x: 128
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92c947c0f35bf44497405deeaae2a3f
+      internalID: -532094472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xolo_7_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16963c93cb9d85845aa15202e05799e2
+      internalID: 1783370838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xolo_7_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1671e260a9e9e12419ceec40acdcb53e
+      internalID: 1116690712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xolo_7_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174c7d0663ea2c44c858351bba480450
+      internalID: -1448445300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xolo_7_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fdde0fa2ede9f40ae265ecda41bc0a
+      internalID: 80379658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xolo_7_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec53babb4127054f8beaf04c0e825b7
+      internalID: -554701090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xolo_8_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 33
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64bcce82a6ee11ca0800000000000000
-      internalID: -6047790684861314234
+      spriteID: 94c9c55f6c1f5b24587b74d6f48ce796
+      internalID: 1592356453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_65
+      name: Xolo_8_1
       rect:
         serializedVersion: 2
-        x: 79
+        x: 64
         y: 0
-        width: 33
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5700469ea4a179ef0800000000000000
-      internalID: -101583557546999691
+      spriteID: d1b1fe038c7134444b7bf085fedb5189
+      internalID: 209964250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_66
+      name: Xolo_8_2
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 0
-        width: 33
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc6646c4942d2a0f0800000000000000
-      internalID: -1107091346123626801
+      spriteID: 8d47d1ffe0d28a54788c0858840cf959
+      internalID: 2070100589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dogs-Remastered-10_67
+      name: Xolo_8_3
       rect:
         serializedVersion: 2
-        x: 207
+        x: 192
         y: 0
-        width: 33
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.421875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 881f94fd47f888c00800000000000000
-      internalID: 903129457412927880
+      spriteID: 1b106384d2cc4b64f8b16cf601afb45f
+      internalID: -1035074429
       vertices: []
       indices: 
       edges: []
@@ -1813,7 +1813,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf6ce7a2b7349f54e8b49b2d4303c234
     internalID: 0
     vertices: []
     indices: 
@@ -1823,74 +1823,74 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dogs-Remastered-10_0: -6230523054788737594
-      Dogs-Remastered-10_1: 3017521277951482497
-      Dogs-Remastered-10_10: 637683326883258457
-      Dogs-Remastered-10_11: 57239548474718759
-      Dogs-Remastered-10_12: -36137100999060158
-      Dogs-Remastered-10_13: -3673098256127767196
-      Dogs-Remastered-10_14: 2556044838507105492
-      Dogs-Remastered-10_15: -6249477766462788307
-      Dogs-Remastered-10_16: -2662578904832208221
-      Dogs-Remastered-10_17: 1063800033855593335
-      Dogs-Remastered-10_18: -8467123794050887536
-      Dogs-Remastered-10_19: 6429007043127087422
-      Dogs-Remastered-10_2: 6504182146304243262
-      Dogs-Remastered-10_20: 1837034455300523371
-      Dogs-Remastered-10_21: -2101825573846715237
-      Dogs-Remastered-10_22: 2912390397150154637
-      Dogs-Remastered-10_23: -6427408045998006332
-      Dogs-Remastered-10_24: 5299280273643359311
-      Dogs-Remastered-10_25: -2912809925237218812
-      Dogs-Remastered-10_26: 2226101128921214562
-      Dogs-Remastered-10_27: -5410657618122341782
-      Dogs-Remastered-10_28: 5707080300719876195
-      Dogs-Remastered-10_29: 1247296377126757874
-      Dogs-Remastered-10_3: -8612048552080711407
-      Dogs-Remastered-10_30: 8917664936390065147
-      Dogs-Remastered-10_31: 5501362818926181131
-      Dogs-Remastered-10_32: 7474787552188395382
-      Dogs-Remastered-10_33: -6370654301816670723
-      Dogs-Remastered-10_34: -1396416887947237616
-      Dogs-Remastered-10_35: 7260268182945085935
-      Dogs-Remastered-10_36: -5879853698964191840
-      Dogs-Remastered-10_37: -8752749282229292495
-      Dogs-Remastered-10_38: 8892641804413477537
-      Dogs-Remastered-10_39: -324384005116556883
-      Dogs-Remastered-10_4: -6345551880429392963
-      Dogs-Remastered-10_40: 6695977302174514469
-      Dogs-Remastered-10_41: 3089265162312400059
-      Dogs-Remastered-10_42: 8388689003223242220
-      Dogs-Remastered-10_43: 2712150312572917034
-      Dogs-Remastered-10_44: -6116225548004591488
-      Dogs-Remastered-10_45: -6207357694185293764
-      Dogs-Remastered-10_46: -546730486753680327
-      Dogs-Remastered-10_47: 9062101623591089144
-      Dogs-Remastered-10_48: 6006608040942191943
-      Dogs-Remastered-10_49: -3282541151710857224
-      Dogs-Remastered-10_5: 7512447368953691730
-      Dogs-Remastered-10_50: 3134530999355216730
-      Dogs-Remastered-10_51: -824213351000326185
-      Dogs-Remastered-10_52: -5736995977950982503
-      Dogs-Remastered-10_53: 484482065542537686
-      Dogs-Remastered-10_54: -6936180013998780882
-      Dogs-Remastered-10_55: -640995911002071067
-      Dogs-Remastered-10_56: 7622601926031452805
-      Dogs-Remastered-10_57: -1127365092495618995
-      Dogs-Remastered-10_58: 4639706707723783910
-      Dogs-Remastered-10_59: 4787029038959817110
-      Dogs-Remastered-10_6: 7817992186317019347
-      Dogs-Remastered-10_60: -361608456044722581
-      Dogs-Remastered-10_61: 2600171945304071195
-      Dogs-Remastered-10_62: 3165936151611711043
-      Dogs-Remastered-10_63: -7228258363006809718
-      Dogs-Remastered-10_64: -6047790684861314234
-      Dogs-Remastered-10_65: -101583557546999691
-      Dogs-Remastered-10_66: -1107091346123626801
-      Dogs-Remastered-10_67: 903129457412927880
-      Dogs-Remastered-10_7: 6147841188247444826
-      Dogs-Remastered-10_8: 4065085391159908219
-      Dogs-Remastered-10_9: 2881599695412788399
+      Xolo_0_0: 1583818703
+      Xolo_0_1: -717593215
+      Xolo_0_2: -1875015594
+      Xolo_0_3: 1200187382
+      Xolo_0_4: -1527690146
+      Xolo_0_5: 1041121401
+      Xolo_0_6: -889160292
+      Xolo_0_7: -1844599232
+      Xolo_1_0: -1108992968
+      Xolo_1_1: 55773120
+      Xolo_1_2: -1629563617
+      Xolo_1_3: 1126240486
+      Xolo_1_4: -2080774203
+      Xolo_1_5: 132618785
+      Xolo_1_6: -523997850
+      Xolo_1_7: 1062764712
+      Xolo_2_0: 1325858815
+      Xolo_2_1: -899081909
+      Xolo_2_2: -1837739887
+      Xolo_2_3: 1724217146
+      Xolo_2_4: -87179603
+      Xolo_2_5: -725175064
+      Xolo_2_6: 377541436
+      Xolo_2_7: 1534400834
+      Xolo_3_0: -395807842
+      Xolo_3_1: -2132218591
+      Xolo_3_2: 1812679029
+      Xolo_3_3: -1968964235
+      Xolo_3_4: 1383407724
+      Xolo_3_5: -1939436813
+      Xolo_3_6: 1433503646
+      Xolo_3_7: 1716847298
+      Xolo_4_0: -1519995504
+      Xolo_4_1: 1205555788
+      Xolo_4_2: 449982407
+      Xolo_4_3: 153299701
+      Xolo_4_4: -146558161
+      Xolo_4_5: -1881070910
+      Xolo_4_6: -494301603
+      Xolo_4_7: 605281818
+      Xolo_5_0: 548136400
+      Xolo_5_1: 197545257
+      Xolo_5_2: 375399582
+      Xolo_5_3: -923244724
+      Xolo_5_4: 656733966
+      Xolo_5_5: 1997510247
+      Xolo_5_6: 784498923
+      Xolo_5_7: -1544038187
+      Xolo_6_0: -1513705101
+      Xolo_6_1: -468252950
+      Xolo_6_2: -1175030941
+      Xolo_6_3: 471581555
+      Xolo_6_4: -126202359
+      Xolo_6_5: 1470915700
+      Xolo_6_6: -293762610
+      Xolo_6_7: 1322302644
+      Xolo_7_0: 1581274808
+      Xolo_7_1: 1804909713
+      Xolo_7_2: -532094472
+      Xolo_7_3: 1783370838
+      Xolo_7_4: 1116690712
+      Xolo_7_5: -1448445300
+      Xolo_7_6: 80379658
+      Xolo_7_7: -554701090
+      Xolo_8_0: 1592356453
+      Xolo_8_1: 209964250
+      Xolo_8_2: 2070100589
+      Xolo_8_3: -1035074429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
