@@ -210,10 +210,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<size=125%>X\xD3LOTL: ANTES DEL AMANECER</size>\nKiske Studio\n\nIdea,
-    concepto, dise\xF1o, direcci\xF3n y pruebas:\nJurgen Rodolfo Guerrero Guti\xE9rrez\n\n<color=#FF9F1C>Uso
+    concepto, dise\xF1o, direcci\xF3n y pruebas:\nJurgen Guerrero\n\n<color=#FF9F1C>Uso
     de inteligencia artificial</color>\n\xB7 Claude (Anthropic): apoyo en programaci\xF3n,
-    armado de escenas en Unity y documentaci\xF3n, y sprites provisionales (veladora,
-    p\xE9talo, vecino, papel picado, foto e \xEDcono de llama).\n\xB7 Suno: m\xFAsica.\nTodas
+    armado de escenas en Unity y documentaci\xF3n.\n\xB7 Suno: m\xFAsica.\nTodas
     las decisiones creativas y de dise\xF1o son del autor.\n\n<size=80%>Arte de terceros
     (gratuito, con cr\xE9dito): Benvictus (Pixel Dogs) \xB7 Camacebra Games (esqueleto)
     \xB7 Anokolisa (Classic NES Legacy Pack - Village) \xB7 Segart (2D 16px Graveyard
@@ -505,7 +504,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4291160052
   m_fontColor: {r: 0.95686275, g: 0.90588236, b: 0.77254903, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -518,7 +517,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
