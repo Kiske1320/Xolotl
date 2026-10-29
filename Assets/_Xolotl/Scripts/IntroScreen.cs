@@ -19,7 +19,7 @@ public class IntroScreen : MonoBehaviour
     [TextArea(2, 4)]
     [SerializeField] string[] lines =
     {
-        "Cada noche del 1 de noviembre, las almas cruzan del Mictlán para visitar a quienes las recuerdan.",
+        "Cada noche del 1 de noviembre, las almas cruzan desde el Mictlán para visitar a quienes las recuerdan.",
         "La abuela Aurora ya no encuentra el camino. Viaja en tu lomo, confiando en tu fuego.",
         "Eres Xólotl, el perro que guía a los muertos. Llévala hasta su ofrenda.",
         "Tu luz se apaga con el tiempo. Los pétalos de cempasúchil la avivan y las veladoras te protegen.",
