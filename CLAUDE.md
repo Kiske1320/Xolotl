@@ -20,7 +20,7 @@
 ## Scripts existentes
 LightRegistry, LightSource, XolotlLight, XolotlController, Petal, Veladora, GameManager,
 OlvidadoController, SpectralPlatform, HumanoConVela, CameraFollow, FallZone,
-ScreenFader, LevelExit, MemoryPhoto, UIManager, ChaseWall, PauseMenu, TitleMenu, FinalScene,
+ScreenFader, LevelExit, MemoryPhoto, UIManager, ChaseWall, PauseMenu, TitleMenu, FinalScene, IntroScreen,
 SeguirVolteo (solo visual: el alma de Aurora copia el flipX del perro).
 
 ## Prefabs (Assets/_Xolotl/Prefabs)
@@ -28,7 +28,7 @@ Xolotl, MainCamera, GameManager, UI_Canvas, Veladora, Petal, Olvidado, Vecino, P
 Referencias a objetos de escena (target de CameraFollow, GameManager, PuntoA/B del vecino) se conectan en cada escena.
 
 ## Escenas
-Build: 00_Titulo, 01_Panteon, 02_Calles, 03_Iglesia, 04_Ofrenda. 00_Prueba es solo de pruebas y no va en el build. Plataforma activa: Web.
+Build: 00_Titulo, 00_Intro, 01_Panteon, 02_Calles, 03_Iglesia, 04_Ofrenda. 00_Prueba es solo de pruebas y no va en el build. Plataforma activa: Web.
 
 ## Pendiente de limpieza antes de entregar
 - Borrar el Debug.Log temporal de la llamarada en XolotlController.

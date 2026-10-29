@@ -209,16 +209,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "X\xF3lotl: Antes del Amanecer \u2014 Kiske Studio\nSpooky Game Jam de
-    Hybridge, 2026\n\nDise\xF1o, programaci\xF3n y m\xFAsica: Jurgen Guerrero\n\nArte
-    de terceros (gratuito, con cr\xE9dito):\nBenvictus (Pixel Dogs) \xB7 Camacebra
-    Games (esqueleto) \xB7 Anokolisa (Classic NES Legacy Pack - Village)\nSegart
-    (2D 16px Graveyard Tileset) \xB7 finalbossblues (fantasma y calaveras) \xB7 CCCreations
-    y Tonbi\nEfectos de sonido: Kenney (CC0) \xB7 Fuente: Pixelify Sans (SIL Open
-    Font License)\n\nUso de inteligencia artificial: se us\xF3 Claude (Anthropic)
-    para el dise\xF1o del juego,\nla investigaci\xF3n de assets gratuitos, el c\xF3digo
-    en C# y el armado de escenas y escenarios en Unity\nmediante Claude Code. El
-    arte, la m\xFAsica y los efectos de sonido no fueron generados con IA."
+  m_text: "<size=125%>X\xD3LOTL: ANTES DEL AMANECER</size>\nKiske Studio\n\nIdea,
+    concepto, dise\xF1o, direcci\xF3n y pruebas:\nJurgen Rodolfo Guerrero Guti\xE9rrez\n\n<color=#FF9F1C>Uso
+    de inteligencia artificial</color>\n\xB7 Claude (Anthropic): apoyo en programaci\xF3n,
+    armado de escenas en Unity y documentaci\xF3n, y sprites provisionales (veladora,
+    p\xE9talo, vecino, papel picado, foto e \xEDcono de llama).\n\xB7 Suno: m\xFAsica.\nTodas
+    las decisiones creativas y de dise\xF1o son del autor.\n\n<size=80%>Arte de terceros
+    (gratuito, con cr\xE9dito): Benvictus (Pixel Dogs) \xB7 Camacebra Games (esqueleto)
+    \xB7 Anokolisa (Classic NES Legacy Pack - Village) \xB7 Segart (2D 16px Graveyard
+    Tileset) \xB7 finalbossblues (fantasma y calaveras) \xB7 CCCreations y Tonbi\nEfectos
+    de sonido: Kenney (CC0) \xB7 Fuente: Pixelify Sans (SIL Open Font License)</size>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 288e340d6f54b0949860c050f4990545, type: 2}
   m_sharedMaterial: {fileID: -1284280406005249478, guid: 288e340d6f54b0949860c050f4990545, type: 2}
@@ -245,8 +245,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 0
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3826e89608bcdd243a54005bc52667aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TitleMenu
-  firstLevel: 01_Panteon
+  firstLevel: 00_Intro
   creditsPanel: {fileID: 1128266361}
 --- !u!4 &1591002021
 Transform:
