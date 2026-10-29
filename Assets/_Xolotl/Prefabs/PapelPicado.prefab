@@ -159,3 +159,6 @@ MonoBehaviour:
   fadingAlpha: 0.55
   fadeSpeed: 4
   edgeInset: 0.2
+  appearSfx: {fileID: 8300000, guid: 87dd800ba5946cc43abeb492da306ff2, type: 3}
+  sfxVolume: 0.4
+  sfxMaxDistance: 12

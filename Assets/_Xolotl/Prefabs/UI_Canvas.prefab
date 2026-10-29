@@ -835,6 +835,7 @@ GameObject:
   - component: {fileID: 1087908029686390637}
   - component: {fileID: 1359846268610045441}
   - component: {fileID: 4237573430980393302}
+  - component: {fileID: 3921200842927197730}
   m_Layer: 5
   m_Name: BotonReiniciar
   m_TagString: Untagged
@@ -956,6 +957,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3921200842927197730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654993368299564815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0542552d6bd6e4f8feed26f61977eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  clickSfx: {fileID: 8300000, guid: 40b5a1dd40c510d45ac32f4cc4294df4, type: 3}
+  clickVolume: 0.5
+  hoverSfx: {fileID: 8300000, guid: 05b941517e5c72941a34b11df1aac7ae, type: 3}
+  hoverVolume: 0.3
 --- !u!1 &3693139060819947651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,6 +1659,9 @@ MonoBehaviour:
   pausePanel: {fileID: 6530794933531530837}
   volumeSlider: {fileID: 8272418754315892683}
   titleScene: 00_Titulo
+  openSfx: {fileID: 8300000, guid: f7fbf11a583ba0f4e9fb0fe7d58ccf33, type: 3}
+  closeSfx: {fileID: 8300000, guid: c309f55897c69b84984298e3af450cb1, type: 3}
+  sfxVolume: 0.6
 --- !u!1 &5630083070545410424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,6 +1674,7 @@ GameObject:
   - component: {fileID: 4337655237854829555}
   - component: {fileID: 3548822522151851840}
   - component: {fileID: 2614943895360114279}
+  - component: {fileID: 6401064786468965569}
   m_Layer: 5
   m_Name: BotonContinuar
   m_TagString: Untagged
@@ -1775,6 +1796,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6401064786468965569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630083070545410424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0542552d6bd6e4f8feed26f61977eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  clickSfx: {fileID: 8300000, guid: 40b5a1dd40c510d45ac32f4cc4294df4, type: 3}
+  clickVolume: 0.5
+  hoverSfx: {fileID: 8300000, guid: 05b941517e5c72941a34b11df1aac7ae, type: 3}
+  hoverVolume: 0.3
 --- !u!1 &5932005820211634831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,6 +1900,7 @@ GameObject:
   - component: {fileID: 6995514309563877082}
   - component: {fileID: 7716987163824186709}
   - component: {fileID: 2510919034590412889}
+  - component: {fileID: 6247510154201455601}
   m_Layer: 5
   m_Name: BotonSalir
   m_TagString: Untagged
@@ -1984,6 +2022,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6247510154201455601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6150958598458592383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0542552d6bd6e4f8feed26f61977eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  clickSfx: {fileID: 8300000, guid: 40b5a1dd40c510d45ac32f4cc4294df4, type: 3}
+  clickVolume: 0.5
+  hoverSfx: {fileID: 8300000, guid: 05b941517e5c72941a34b11df1aac7ae, type: 3}
+  hoverVolume: 0.3
 --- !u!1 &6215546410152300247
 GameObject:
   m_ObjectHideFlags: 0

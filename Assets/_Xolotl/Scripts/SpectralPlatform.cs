@@ -23,11 +23,18 @@ public class SpectralPlatform : MonoBehaviour
     [Tooltip("Distancia hacia adentro desde cada borde para los puntos de revisión")]
     [SerializeField] float edgeInset = 0.2f;
 
+    [Header("Sonido")]
+    [SerializeField] AudioClip appearSfx;
+    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.4f;
+    [Tooltip("Solo suena si Xólotl está más cerca que esto")]
+    [SerializeField] float sfxMaxDistance = 12f;
+
     Collider2D col;
     XolotlLight xolotl;
     Vector2 localLeft, localCenter, localRight;
     float alpha = 1f;
     float lingerTimer;
+    bool wasSolid;
 
     public bool IsSolid => col != null && col.enabled;
 
@@ -35,6 +42,7 @@ public class SpectralPlatform : MonoBehaviour
     {
         col = GetComponent<Collider2D>();
         xolotl = FindAnyObjectByType<XolotlLight>();
+        wasSolid = col.enabled;
         if (renderers == null || renderers.Length == 0)
             renderers = GetComponentsInChildren<SpriteRenderer>();
 
@@ -63,6 +71,12 @@ public class SpectralPlatform : MonoBehaviour
 
         bool solid = lit || lingerTimer > 0f;
         col.enabled = solid;
+
+        // De oculto a sólido: suena el papel, solo si Xólotl está cerca
+        if (solid && !wasSolid && xolotl != null &&
+            Vector2.Distance(xolotl.transform.position, transform.position) < sfxMaxDistance)
+            AudioManager.Play(appearSfx, sfxVolume);
+        wasSolid = solid;
 
         float targetAlpha = lit ? 1f : (solid ? fadingAlpha : hiddenAlpha);
         alpha = Mathf.MoveTowards(alpha, targetAlpha, fadeSpeed * Time.deltaTime);

@@ -11,8 +11,9 @@ public class Petal : MonoBehaviour
 {
     [SerializeField] float lightAmount = 1.5f;
     [SerializeField] ParticleSystem pickupFxPrefab;
-    [SerializeField] AudioClip pickupSfx;
-    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.7f;
+    [Tooltip("Se elige uno al azar (petalo_1, 2, 3)")]
+    [SerializeField] AudioClip[] pickupSfx;
+    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.6f;
 
     [Header("Flotar")]
     [SerializeField] float bobAmplitude = 0.08f;
@@ -58,8 +59,7 @@ public class Petal : MonoBehaviour
 
         if (pickupFxPrefab != null)
             Instantiate(pickupFxPrefab, transform.position, Quaternion.identity);
-        if (pickupSfx != null)
-            AudioSource.PlayClipAtPoint(pickupSfx, transform.position, sfxVolume);
+        AudioManager.PlayRandom(pickupSfx, sfxVolume);
 
         SetCollected(true);
     }

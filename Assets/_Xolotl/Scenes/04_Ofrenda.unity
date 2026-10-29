@@ -1459,6 +1459,7 @@ GameObject:
   - component: {fileID: 941596030}
   - component: {fileID: 941596029}
   - component: {fileID: 941596028}
+  - component: {fileID: 941596031}
   m_Layer: 5
   m_Name: BotonVolverInicio
   m_TagString: Untagged
@@ -1580,6 +1581,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941596026}
   m_CullTransparentMesh: 1
+--- !u!114 &941596031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941596026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0542552d6bd6e4f8feed26f61977eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  clickSfx: {fileID: 8300000, guid: 40b5a1dd40c510d45ac32f4cc4294df4, type: 3}
+  clickVolume: 0.5
+  hoverSfx: {fileID: 8300000, guid: 05b941517e5c72941a34b11df1aac7ae, type: 3}
+  hoverVolume: 0.3
 --- !u!1 &959955817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,6 +2807,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7322120578387022340, guid: 109f8e0cb1298d14a90e85309574d3b4, type: 3}
   m_PrefabInstance: {fileID: 1508345386}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1570193876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570193878}
+  - component: {fileID: 1570193877}
+  m_Layer: 0
+  m_Name: Musica
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1570193877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570193876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baba03efd98ccb24d8b2d8ba9bb8e76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicManager
+  music: {fileID: 8300000, guid: 2c585dd83d8286c408ef245ae46bf4d1, type: 3}
+  chaseMusic: {fileID: 0}
+  volume: 0.45
+  crossfadeTime: 1.2
+  ambienceLoop: {fileID: 0}
+  ambienceVolume: 0.15
+--- !u!4 &1570193878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570193876}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1761394254
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,3 +4005,4 @@ SceneRoots:
   - {fileID: 1958225965}
   - {fileID: 1077672394}
   - {fileID: 1214384330}
+  - {fileID: 1570193878}

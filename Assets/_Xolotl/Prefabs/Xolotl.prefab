@@ -267,6 +267,8 @@ MonoBehaviour:
   flareCooldown: 3
   flareIntensityMultiplier: 3
   flareExpandSpeed: 40
+  flareSfx: []
+  flareSfxVolume: 0.8
   lowLightThreshold: 1.5
   flickerAmount: 0.15
   flickerSpeed: 18
@@ -299,6 +301,9 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 3072
+  landingSfx: {fileID: 8300000, guid: 03c71afa75e3ffd4ab3ec9bd2a117d35, type: 3}
+  landingVolume: 0.4
+  landingMinFallSpeed: 6
   xolotlLight: {fileID: 4354449658556657182}
   spriteRenderer: {fileID: 4381548243585917533}
   animator: {fileID: 8223791379867459344}

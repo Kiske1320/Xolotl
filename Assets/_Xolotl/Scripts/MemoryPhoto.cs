@@ -77,8 +77,7 @@ public class MemoryPhoto : MonoBehaviour
 
         if (pickupFxPrefab != null)
             Instantiate(pickupFxPrefab, transform.position, Quaternion.identity);
-        if (pickupSfx != null)
-            AudioSource.PlayClipAtPoint(pickupSfx, transform.position, sfxVolume);
+        AudioManager.Play(pickupSfx, sfxVolume);
 
         OnPhotoCollected?.Invoke(TotalCollected);
         gameObject.SetActive(false);

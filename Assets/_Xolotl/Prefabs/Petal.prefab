@@ -144,7 +144,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Petal
   lightAmount: 1.5
   pickupFxPrefab: {fileID: 0}
-  pickupSfx: {fileID: 0}
+  pickupSfx:
+  - {fileID: 8300000, guid: 39913e2a34bb6b8459e0517f698fe064, type: 3}
+  - {fileID: 8300000, guid: ba20980d8c8a86c468dfd1bc38a2ce25, type: 3}
+  - {fileID: 8300000, guid: f3e482645325aef43a949baf5c947f37, type: 3}
   sfxVolume: 0.7
   bobAmplitude: 0.08
   bobSpeed: 3

@@ -4267,6 +4267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bb17603311af894e8e703e604d7512a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FallZone
+  fallSfx: {fileID: 0}
+  sfxVolume: 0.7
 --- !u!61 &548699379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8651,6 +8653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bb17603311af894e8e703e604d7512a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FallZone
+  fallSfx: {fileID: 0}
+  sfxVolume: 0.7
 --- !u!61 &1196450706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9238,6 +9242,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5159196608119274256, guid: 8dbc784d0add65242add7d40b87ea78a, type: 3}
   m_PrefabInstance: {fileID: 1250633427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1255831191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1255831193}
+  - component: {fileID: 1255831192}
+  m_Layer: 0
+  m_Name: Musica
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1255831192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255831191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baba03efd98ccb24d8b2d8ba9bb8e76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicManager
+  music: {fileID: 8300000, guid: 431889837cd991741a49aa06e688a21c, type: 3}
+  chaseMusic: {fileID: 8300000, guid: a564f88c17b478e42b5d13751c504e05, type: 3}
+  volume: 0.45
+  crossfadeTime: 1.2
+  ambienceLoop: {fileID: 0}
+  ambienceVolume: 0.15
+--- !u!4 &1255831193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255831191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1266377919
 GameObject:
   m_ObjectHideFlags: 0
@@ -10791,7 +10845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelExit
   nextSceneName: 04_Ofrenda
   fadeDuration: 1
-  exitSfx: {fileID: 0}
+  exitSfx: {fileID: 8300000, guid: 2e6c4d31c39d93f4f9b36ef63c2e82f6, type: 3}
+  sfxVolume: 0.7
 --- !u!61 &1447731174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16987,3 +17042,4 @@ SceneRoots:
   - {fileID: 710051175}
   - {fileID: 436330935}
   - {fileID: 891094015}
+  - {fileID: 1255831193}

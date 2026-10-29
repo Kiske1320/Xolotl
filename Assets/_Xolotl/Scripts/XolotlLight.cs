@@ -23,6 +23,9 @@ public class XolotlLight : LightSource
     [SerializeField] float flareIntensityMultiplier = 3f;
     [Tooltip("Qué tan rápido crece el radio al lanzar la llamarada (unidades por segundo)")]
     [SerializeField] float flareExpandSpeed = 40f;
+    [Tooltip("Suenan todos a la vez (aullido y fuego)")]
+    [SerializeField] AudioClip[] flareSfx;
+    [Range(0f, 1f)][SerializeField] float flareSfxVolume = 0.8f;
 
     [Header("Parpadeo con poca luz")]
     [SerializeField] float lowLightThreshold = 1.5f;
@@ -130,6 +133,8 @@ public class XolotlLight : LightSource
         cooldownTimer = flareCooldown;
         OnLightChanged?.Invoke(LightNormalized);
         OnFlare?.Invoke();
+        if (flareSfx != null)
+            foreach (AudioClip clip in flareSfx) AudioManager.Play(clip, flareSfxVolume);
         return true;
     }
 

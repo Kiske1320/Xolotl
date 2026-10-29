@@ -361,5 +361,6 @@ MonoBehaviour:
   flickerAmount: 0.12
   flickerSpeed: 7
   igniteFx: {fileID: 0}
-  igniteSfx: {fileID: 0}
-  checkpointSfx: {fileID: 0}
+  igniteSfx: {fileID: 8300000, guid: 583eef761db62fb43a49750ea09af8f1, type: 3}
+  checkpointSfx: {fileID: 8300000, guid: 583eef761db62fb43a49750ea09af8f1, type: 3}
+  sfxVolume: 0.7

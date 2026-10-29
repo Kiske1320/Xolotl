@@ -146,7 +146,7 @@ MonoBehaviour:
   photoId: 
   lightBonus: 1
   pickupFxPrefab: {fileID: 0}
-  pickupSfx: {fileID: 0}
+  pickupSfx: {fileID: 8300000, guid: 97ce30c7ad1f8dc4b953c8fa3741b08b, type: 3}
   sfxVolume: 0.8
   bobAmplitude: 0.12
   bobSpeed: 2

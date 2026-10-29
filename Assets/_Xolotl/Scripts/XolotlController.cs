@@ -31,6 +31,12 @@ public class XolotlController : MonoBehaviour
     [SerializeField] Vector2 groundCheckSize = new(0.8f, 0.1f);
     [SerializeField] LayerMask groundLayers;
 
+    [Header("Sonido")]
+    [SerializeField] AudioClip landingSfx;
+    [Range(0f, 1f)][SerializeField] float landingVolume = 0.4f;
+    [Tooltip("Velocidad de caída mínima para que suene el aterrizaje")]
+    [SerializeField] float landingMinFallSpeed = 6f;
+
     [Header("Referencias")]
     [SerializeField] XolotlLight xolotlLight;
     [SerializeField] SpriteRenderer spriteRenderer;
@@ -44,6 +50,7 @@ public class XolotlController : MonoBehaviour
     float coyoteCounter;
     float jumpBufferCounter;
     float knockbackTimer;
+    float airFallSpeed;
     bool isGrounded;
     bool facingRight = true;
     bool controlsEnabled = true;
@@ -81,7 +88,9 @@ public class XolotlController : MonoBehaviour
     {
         if (Time.timeScale == 0f) return;
 
+        bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0f, groundLayers);
+        CheckLanding(wasGrounded);
 
         if (knockbackTimer > 0f) knockbackTimer -= Time.deltaTime;
 
@@ -138,6 +147,20 @@ public class XolotlController : MonoBehaviour
         velocity.y = Mathf.Max(velocity.y, -maxFallSpeed);
 
         rb.linearVelocity = velocity;
+    }
+
+    // Guarda la velocidad de caída en el aire y suena al tocar el suelo.
+    // Con los controles bloqueados (derrota, reaparición, salida) no suena.
+    void CheckLanding(bool wasGrounded)
+    {
+        if (!isGrounded)
+        {
+            airFallSpeed = controlsEnabled ? -rb.linearVelocity.y : 0f;
+            return;
+        }
+        if (!wasGrounded && airFallSpeed > landingMinFallSpeed)
+            AudioManager.Play(landingSfx, landingVolume);
+        airFallSpeed = 0f;
     }
 
     void Flip()

@@ -52,3 +52,7 @@ MonoBehaviour:
   retryAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   defeatPanel: {fileID: 0}
   fadeDuration: 0.6
+  defeatSfx: {fileID: 8300000, guid: 783b386136b929b4e9991bb3e6947718, type: 3}
+  defeatVolume: 0.8
+  respawnSfx: {fileID: 8300000, guid: 61d7cb64d9fc9514b9fb7284a1f5f69c, type: 3}
+  respawnVolume: 0.6

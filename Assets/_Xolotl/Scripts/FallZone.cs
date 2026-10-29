@@ -7,6 +7,9 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class FallZone : MonoBehaviour
 {
+    [SerializeField] AudioClip fallSfx;
+    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.7f;
+
     void Reset() => GetComponent<Collider2D>().isTrigger = true;
 
     void OnTriggerEnter2D(Collider2D other)
@@ -14,6 +17,9 @@ public class FallZone : MonoBehaviour
         if (other.attachedRigidbody == null) return;
         XolotlLight xolotlLight = other.attachedRigidbody.GetComponent<XolotlLight>();
         if (xolotlLight != null && !xolotlLight.IsEmpty)
+        {
+            AudioManager.Play(fallSfx, sfxVolume);
             xolotlLight.Drain(9999f);
+        }
     }
 }

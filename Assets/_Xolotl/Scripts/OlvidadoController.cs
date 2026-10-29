@@ -167,7 +167,7 @@ public class OlvidadoController : MonoBehaviour
             xolotlController.Knockback(new Vector2(knockbackForce.x * side, knockbackForce.y));
         }
 
-        if (hitSfx != null) AudioSource.PlayClipAtPoint(hitSfx, transform.position, sfxVolume);
+        AudioManager.Play(hitSfx, sfxVolume);
     }
 
     void OnDrawGizmosSelected()

@@ -31,6 +31,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] CanvasGroup defeatPanel;
     [SerializeField] float fadeDuration = 0.6f;
 
+    [Header("Sonido")]
+    [SerializeField] AudioClip defeatSfx;
+    [Range(0f, 1f)][SerializeField] float defeatVolume = 0.8f;
+    [SerializeField] AudioClip respawnSfx;
+    [Range(0f, 1f)][SerializeField] float respawnVolume = 0.6f;
+
     Vector3 checkpointPosition;
     Veladora currentCheckpoint;
     bool isDefeated;
@@ -85,6 +91,7 @@ public class GameManager : MonoBehaviour
     {
         isDefeated = true;
         xolotlController.SetControlsEnabled(false);
+        AudioManager.Play(defeatSfx, defeatVolume);
 
         yield return new WaitForSeconds(defeatDelay);
         yield return Fade(0f, 1f);
@@ -101,6 +108,7 @@ public class GameManager : MonoBehaviour
 
         xolotlLight.Refill(respawnLightFraction);
         OnRespawn?.Invoke();
+        AudioManager.Play(respawnSfx, respawnVolume);
 
         CameraFollow cam = FindAnyObjectByType<CameraFollow>();
         if (cam != null) cam.SnapToTarget();

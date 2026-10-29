@@ -15,6 +15,11 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] Slider volumeSlider;
     [SerializeField] string titleScene = "00_Titulo";
 
+    [Header("Sonido")]
+    [SerializeField] AudioClip openSfx;
+    [SerializeField] AudioClip closeSfx;
+    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.6f;
+
     static float savedVolume = 1f;
     bool paused;
 
@@ -41,7 +46,7 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
         if (pauseAction != null && pauseAction.action.WasPressedThisFrame())
-            SetPaused(!paused);
+            TogglePause(!paused);
     }
 
     void OnDestroy()
@@ -63,8 +68,16 @@ public class PauseMenu : MonoBehaviour
         AudioListener.volume = value;
     }
 
+    // Pausar o reanudar con sonido. Los AudioSource no dependen de Time.timeScale.
+    void TogglePause(bool value)
+    {
+        if (value == paused) return;
+        SetPaused(value);
+        AudioManager.Play(value ? openSfx : closeSfx, sfxVolume);
+    }
+
     /// <summary>Botón "Continuar".</summary>
-    public void Resume() => SetPaused(false);
+    public void Resume() => TogglePause(false);
 
     /// <summary>Botón "Reiniciar nivel".</summary>
     public void RestartLevel()

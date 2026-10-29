@@ -37,6 +37,7 @@ public class Veladora : LightSource
     [SerializeField] ParticleSystem igniteFx;
     [SerializeField] AudioClip igniteSfx;
     [SerializeField] AudioClip checkpointSfx;
+    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.7f;
 
     bool isLit;
     float flickerOffset;
@@ -86,7 +87,11 @@ public class Veladora : LightSource
         if (!HasWind && xolotl != null && xolotl.IsFlaring)
         {
             float dist = Vector2.Distance(xolotl.transform.position, transform.position);
-            if (dist <= xolotl.Radius) SetLit(true, playEffects: true);
+            if (dist <= xolotl.Radius)
+            {
+                SetLit(true, playEffects: true);
+                AudioManager.Play(igniteSfx, sfxVolume);
+            }
         }
     }
 
@@ -101,7 +106,6 @@ public class Veladora : LightSource
         if (lit && playEffects)
         {
             if (igniteFx != null) igniteFx.Play();
-            if (igniteSfx != null) AudioSource.PlayClipAtPoint(igniteSfx, transform.position);
         }
     }
 
@@ -111,8 +115,6 @@ public class Veladora : LightSource
         if (other.attachedRigidbody.GetComponent<XolotlLight>() == null) return;
 
         if (GameManager.Instance != null && GameManager.Instance.SetCheckpoint(this))
-        {
-            if (checkpointSfx != null) AudioSource.PlayClipAtPoint(checkpointSfx, transform.position);
-        }
+            AudioManager.Play(checkpointSfx, sfxVolume);
     }
 }

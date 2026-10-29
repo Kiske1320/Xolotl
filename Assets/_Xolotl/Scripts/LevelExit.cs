@@ -13,6 +13,7 @@ public class LevelExit : MonoBehaviour
     [SerializeField] string nextSceneName = "02_Calles";
     [SerializeField] float fadeDuration = 1f;
     [SerializeField] AudioClip exitSfx;
+    [Range(0f, 1f)][SerializeField] float sfxVolume = 0.7f;
 
     bool used;
 
@@ -33,7 +34,7 @@ public class LevelExit : MonoBehaviour
     {
         xolotlLight.SetDrainPaused(true);
         if (controller != null) controller.SetControlsEnabled(false);
-        if (exitSfx != null) AudioSource.PlayClipAtPoint(exitSfx, transform.position);
+        AudioManager.Play(exitSfx, sfxVolume);
 
         if (ScreenFader.Instance != null)
             yield return ScreenFader.Instance.FadeOut(fadeDuration);

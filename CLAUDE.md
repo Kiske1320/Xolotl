@@ -21,7 +21,9 @@
 LightRegistry, LightSource, XolotlLight, XolotlController, Petal, Veladora, GameManager,
 OlvidadoController, SpectralPlatform, HumanoConVela, CameraFollow, FallZone,
 ScreenFader, LevelExit, MemoryPhoto, UIManager, ChaseWall, PauseMenu, TitleMenu, FinalScene, IntroScreen,
-SeguirVolteo (solo visual: el alma de Aurora copia el flipX del perro).
+SeguirVolteo (solo visual: el alma de Aurora copia el flipX del perro),
+AudioManager (efectos 2D: `AudioManager.Play(clip, vol)`), MusicManager (objeto "Musica" en cada escena),
+MusicPlayer (persistente, crossfade), UIButtonSound (click/hover en cada botón).
 
 ## Prefabs (Assets/_Xolotl/Prefabs)
 Xolotl, MainCamera, GameManager, UI_Canvas, Veladora, Petal, Olvidado, Vecino, PapelPicado, MemoryPhoto.
