@@ -212,14 +212,14 @@ MonoBehaviour:
   m_text: "<size=125%>X\xD3LOTL: ANTES DEL AMANECER</size>\nKiske Studio\n\nIdea,
     concepto, dise\xF1o, direcci\xF3n y pruebas:\nJurgen Guerrero\n\n<color=#FF9F1C>Uso
     de inteligencia artificial</color>\n\xB7 Claude (Anthropic): apoyo en programaci\xF3n,
-    armado de escenas en Unity y documentaci\xF3n.\n\xB7 M\xFAsica: Jurgen Rodolfo
-    Guerrero Guti\xE9rrez con Suno (IA).\nTodas las decisiones creativas y de dise\xF1o
-    son del autor.\n\n<size=80%>Arte de terceros (gratuito, con cr\xE9dito): Benvictus
-    (Pixel Dogs) \xB7 Camacebra Games (esqueleto) \xB7 Anokolisa (Classic NES Legacy
-    Pack - Village) \xB7 Segart (2D 16px Graveyard Tileset) \xB7 finalbossblues (fantasma
-    y calaveras) \xB7 CCCreations y Tonbi\nEfectos de sonido: Kenney (kenney.nl,
-    CC0) \xB7 Voces de los olvidados: qubodup (OpenGameArt, CC0) \xB7 Ladrido: OpenGameArt
-    (CC0) \xB7 Fuente: Pixelify Sans (SIL Open Font License)</size>"
+    armado de escenas en Unity y documentaci\xF3n.\n\xB7 M\xFAsica: Jurgen Guerrero
+    con Suno (IA).\nTodas las decisiones creativas y de dise\xF1o son del autor.\n\n<size=80%>Arte
+    de terceros (gratuito, con cr\xE9dito): Benvictus (Pixel Dogs) \xB7 Camacebra
+    Games (esqueleto) \xB7 Anokolisa (Classic NES Legacy Pack - Village) \xB7 Segart
+    (2D 16px Graveyard Tileset) \xB7 finalbossblues (fantasma y calaveras) \xB7 CCCreations
+    y Tonbi\nEfectos de sonido: Kenney (kenney.nl, CC0) \xB7 Voces de los olvidados:
+    qubodup (OpenGameArt, CC0) \xB7 Ladrido: OpenGameArt (CC0) \xB7 Fuente: Pixelify
+    Sans (SIL Open Font License)</size>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 288e340d6f54b0949860c050f4990545, type: 2}
   m_sharedMaterial: {fileID: -1284280406005249478, guid: 288e340d6f54b0949860c050f4990545, type: 2}
