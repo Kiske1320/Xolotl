@@ -38,6 +38,8 @@ Tu fuego se apaga poco a poco. Los pétalos de cempasúchil lo recargan, y las v
 - **Pulido:** partículas (pétalos, llamarada, veladoras, brasas), squash & stretch, fondo propio de la Iglesia con vitrales
 - **Audio:** música compuesta por mí con apoyo de IA (Suno) y SFX editados en Audacity
 - **Flujo de trabajo:** Claude Code conectado a Unity por MCP, desarrollo por pasos documentados y Git + LFS
+- **Proceso documentado:** el desarrollo completo, paso a paso, está en [`docs/desarrollo/`](docs/desarrollo/)
+
 
 ## Retos técnicos que resolví
 - **Que la luz visual y la luz del gameplay fueran la misma.** Cada fuente de luz (Xólotl, veladoras, vecinos) hereda de `LightSource` y se registra en `LightRegistry`. Cualquier objeto pregunta `LightRegistry.IsLit(punto)`, y así los olvidados se congelan y los puentes se vuelven sólidos exactamente donde el jugador ve luz. El radio del Light 2D (`pointLightOuterRadius`) cambia con la luz restante, con parpadeo y brasas como indicador.
